@@ -1,0 +1,2319 @@
+[
+  {
+    "id": "stsi4105-q001",
+    "subjectId": "subject-02",
+    "text": "Yang bukan merupakan alasan mengapa sebuah organisasi atau perusahaan memerlukan sebuah basis data adalah ….",
+    "options": {
+      "A": "Pengelolaan data yang besar",
+      "B": "Akurasi data",
+      "C": "Mudah dalam proses manipulasi data",
+      "D": "Regulasi data"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 1
+    }
+  },
+  {
+    "id": "stsi4105-q002",
+    "subjectId": "subject-02",
+    "text": "Yang bukan merupakan kekurangan dari basis data adalah ….",
+    "options": {
+      "A": "Tidak mudah dipahami",
+      "B": "Adanya tambahan biaya konversi",
+      "C": "Biaya dapat menjadi sangat mahal",
+      "D": "Tidak meningkatkan kemandirian data"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 2
+    }
+  },
+  {
+    "id": "stsi4105-q003",
+    "subjectId": "subject-02",
+    "text": "Yang merupakan bagian terkecil dalam database dapat berupa karakter numerik (angka 0 s.d. 9), huruf (A–Z, a–z), ataupun karakter-karakter khusus, seperti , &, %, #, dan lain-lain, disebut dengan ….",
+    "options": {
+      "A": "Attribute",
+      "B": "Tuple",
+      "C": "Entity",
+      "D": "Character"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 3
+    }
+  },
+  {
+    "id": "stsi4105-q004",
+    "subjectId": "subject-02",
+    "text": "Komponen yang tidak termasuk komponen dari sistem basis data adalah ….",
+    "options": {
+      "A": "Database",
+      "B": "Application program",
+      "C": "Hardware",
+      "D": "Word processor"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 4
+    }
+  },
+  {
+    "id": "stsi4105-q005",
+    "subjectId": "subject-02",
+    "text": "Database Management System (DBMS) adalah ….",
+    "options": {
+      "A": "Paket program yang digunakan untuk membuat dan mengelola basis data",
+      "B": "Paket program yang digunakan untuk membuat dan mengelola arsip",
+      "C": "Sistem operasi yang digunakan untuk membuat dan mengelola basis data",
+      "D": "Sistem operasi yang digunakan untuk membuat dan mengelola arsip"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 5
+    }
+  },
+  {
+    "id": "stsi4105-q006",
+    "subjectId": "subject-02",
+    "text": "Lapisan berikut menjabarkan data apa saja yang sesungguhnya disimpan pada basis data dan juga menjabarkan hubungan-hubungan antar-data secara keseluruhan disebut dengan ….",
+    "options": {
+      "A": "Level fisik",
+      "B": "Level logik",
+      "C": "Level pandangan",
+      "D": "Level sistem"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 6
+    }
+  },
+  {
+    "id": "stsi4105-q007",
+    "subjectId": "subject-02",
+    "text": "Model database relasi pertama kali diperkenalkan oleh ….",
+    "options": {
+      "A": "Edgar F. Codd",
+      "B": "Charles Bachman",
+      "C": "Peter Chen",
+      "D": "Michael Stonebraker"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 1,
+      "originalNumber": 7
+    }
+  },
+  {
+    "id": "stsi4105-q008",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk dalam kelompok model data berbasis fisik adalah ….",
+    "options": {
+      "A": "Entity Relationship Model",
+      "B": "Binary Model",
+      "C": "Frame Memory",
+      "D": "Semantic Model"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 8
+    }
+  },
+  {
+    "id": "stsi4105-q009",
+    "subjectId": "subject-02",
+    "text": "Model di mana relasi antara objek dasar tidak dinyatakan dengan simbol, tetapi menggunakan kata-kata disebut dengan ….",
+    "options": {
+      "A": "Semantic Model",
+      "B": "Physical Based Data Model",
+      "C": "Network Model",
+      "D": "Relational Data Model"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 9
+    }
+  },
+  {
+    "id": "stsi4105-q010",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang digunakan oleh seorang perancang sistem untuk memodelkan data dari hasil analisis yang nantinya akan dikembangkan menjadi basis data adalah ….",
+    "options": {
+      "A": "Entity Relationship Model",
+      "B": "System Flow Diagram",
+      "C": "Data Flow Diagram",
+      "D": "Entity Relationship Diagram"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 10
+    }
+  },
+  {
+    "id": "stsi4105-q011",
+    "subjectId": "subject-02",
+    "text": "Notasi yang digunakan dalam model ER untuk menunjukkan hubungan antarentitas adalah ….",
+    "options": {
+      "A": "Persegi panjang",
+      "B": "Garis",
+      "C": "Lingkaran",
+      "D": "Oval"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 11
+    }
+  },
+  {
+    "id": "stsi4105-q012",
+    "subjectId": "subject-02",
+    "text": "Kardinalitas relasi menunjukkan jumlah maksimum entitas yang dapat berelasi dengan entitas pada himpunan entitas yang lain. Kardinalitas relasi merujuk pada simbol berikut adalah ….",
+    "imageUrl": "/images/stsi4105/cardinality-one-only.svg",
+    "imageAlt": "Simbol kardinalitas relasi belah ketupat dengan dua garis vertikal ke persegi panjang",
+    "options": {
+      "A": "Selalu hanya satu",
+      "B": "Satu atau banyak",
+      "C": "Nol atau satu",
+      "D": "Nol, satu, atau banyak"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 12
+    }
+  },
+  {
+    "id": "stsi4105-q013",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Strong Entity Sets\n2) Weak Entity Sets\n3) Supra Entity\n4) Subtype Entities\n\nBerdasarkan pernyataan di atas, yang termasuk varian entitas adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 2,
+      "originalNumber": 13
+    }
+  },
+  {
+    "id": "stsi4105-q014",
+    "subjectId": "subject-02",
+    "text": "Dekomposisi yang dilakukan dengan cara membagi sebuah himpunan entitas menjadi dua atau lebih dengan pemisahan entitas disebut dengan ….",
+    "options": {
+      "A": "Dekomposisi vertikal",
+      "B": "Dekomposisi atribut",
+      "C": "Dekomposisi horizontal",
+      "D": "Dekomposisi parsial"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 14
+    }
+  },
+  {
+    "id": "stsi4105-q015",
+    "subjectId": "subject-02",
+    "text": "Sebuah area yang memungkinkan dalam membuat sebuah grafik, diagram, flowchart, atau struktur yang Anda buat pada aplikasi yEd Graph Editor disebut dengan ….",
+    "options": {
+      "A": "Menu Bar",
+      "B": "Toolbar",
+      "C": "Properties Mapper",
+      "D": "Editor Window"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 15
+    }
+  },
+  {
+    "id": "stsi4105-q016",
+    "subjectId": "subject-02",
+    "text": "Fitur yang digunakan untuk menghubungkan dua elemen dalam diagram pada yEd Graph Editor adalah ….",
+    "options": {
+      "A": "Bridge",
+      "B": "Edge",
+      "C": "Relation",
+      "D": "Link"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 16
+    }
+  },
+  {
+    "id": "stsi4105-q017",
+    "subjectId": "subject-02",
+    "text": "Pada aplikasi yEd Graph Editor, simbol berikut menggambarkan ….",
+    "imageUrl": "/images/stsi4105/yed-relationship.svg",
+    "imageAlt": "Simbol belah ketupat bertuliskan Relationship pada yEd Graph Editor",
+    "options": {
+      "A": "Relationship",
+      "B": "Relationship dengan atribut",
+      "C": "Relationship lemah",
+      "D": "Relationship primary"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 17
+    }
+  },
+  {
+    "id": "stsi4105-q018",
+    "subjectId": "subject-02",
+    "text": "Untuk menambahkan entitas pada yEd Graph Editor, dilakukan dengan cara melakukan …. icon Entity dari Palette ke halaman editor.",
+    "options": {
+      "A": "Copy and paste",
+      "B": "Double click",
+      "C": "Drag and drop",
+      "D": "Klik kanan pada mouse dan klik Apply"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 18
+    }
+  },
+  {
+    "id": "stsi4105-q019",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang termasuk ciri dari relasi yang optimal adalah ….",
+    "options": {
+      "A": "Minimalisasi kerangkapan data guna meningkatkan kinerja sistem",
+      "B": "Memiliki struktur record yang konsisten secara fisik",
+      "C": "Memiliki struktur record yang kompleks dan tidak mudah untuk dimengerti",
+      "D": "Memiliki struktur record yang kompleks dalam pemeliharaan"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 19
+    }
+  },
+  {
+    "id": "stsi4105-q020",
+    "subjectId": "subject-02",
+    "text": "Urutan tahapan normalisasi yang tepat dimulai dari Bentuk Tidak Normal adalah ….",
+    "options": {
+      "A": "Bentuk tidak normal, 1NF, 2NF",
+      "B": "Bentuk tidak normal, 2NF, 3NF",
+      "C": "Bentuk tidak normal, BCNF, 1NF",
+      "D": "Bentuk tidak normal, BCNF, 2NF"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 3,
+      "originalNumber": 20
+    }
+  },
+  {
+    "id": "stsi4105-q021",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Relasi mempunyai bentuk non-flat file\n2) Relasi memuat set atribut berulang\n3) Relasi memuat set atribut tidak berulang\n4) Relasi memuat atribut non-atomic value\n\nBerdasarkan pernyataan di atas, yang termasuk kriteria relasi bentuk UNF adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 4,
+      "originalNumber": 21
+    }
+  },
+  {
+    "id": "stsi4105-q022",
+    "subjectId": "subject-02",
+    "text": "Pada basis data relational, redundansi tidak bisa dihilangkan sama sekali karena diperlukannya atribut-atribut yang berfungsi sebagai ….",
+    "options": {
+      "A": "Candidate key",
+      "B": "Index",
+      "C": "Primary key",
+      "D": "Composite key"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 4,
+      "originalNumber": 22
+    }
+  },
+  {
+    "id": "stsi4105-q023",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Atribut Turunan\n2) Atribut yang Berlebihan\n3) Tabel Transaksi\n4) Tabel Rekapitulasi\n\nBerdasarkan pernyataan di atas, yang termasuk dalam bentuk denormalisasi adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 4,
+      "originalNumber": 23
+    }
+  },
+  {
+    "id": "stsi4105-q024",
+    "subjectId": "subject-02",
+    "text": "Bahasa khusus yang berisi fitur-fitur yang menentukan aksi yang dapat dilakukan dikenal dengan nama ….",
+    "options": {
+      "A": "Structured Query Language",
+      "B": "Data Control Language",
+      "C": "Data Definition Language",
+      "D": "Data Manipulation Language"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 4,
+      "originalNumber": 24
+    }
+  },
+  {
+    "id": "stsi4105-q025",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) DDL\n2) DML\n3) DCL\n4) DPL\n\nBerdasarkan pernyataan di atas, yang termasuk pembagian dari Structured Query Language adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 4,
+      "originalNumber": 25
+    }
+  },
+  {
+    "id": "stsi4105-q026",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) DATABASE\n2) DATA\n3) SCHEMA\n4) TABLE\n\nBerdasarkan pernyataan di atas, yang termasuk objek basis data yang dapat dibuat/dihapus dengan menggunakan perintah DDL adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 5,
+      "originalNumber": 26
+    }
+  },
+  {
+    "id": "stsi4105-q027",
+    "subjectId": "subject-02",
+    "text": "Perintah DDL yang digunakan untuk menambah kolom Kelamin dengan tipe data karakter dan lebar 1 ke dalam tabel tblpembeli adalah ….",
+    "options": {
+      "A": "ALTER TABLE tblpembeli ADD Kelamin CHAR(1);",
+      "B": "ALTER TABLE tblpembeli ADD Kelamin CHR(1);",
+      "C": "ALTER TABLE tblpembeli ADD Kelamin KARAKTER(1);",
+      "D": "ALTER TABLE tblpembeli Kelamin CHAR(!);"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 5,
+      "originalNumber": 27
+    }
+  },
+  {
+    "id": "stsi4105-q028",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Pengambilan informasi yang disimpan dalam relasi basis data.\n2) Penempatan informasi baru dalam basis data.\n3) Penghapusan informasi dari basis data.\n4) Modifikasi informasi yang disimpan dalam basis data.\n\nBerdasarkan pernyataan di atas, yang termasuk manipulasi data menurut Octaviani (2010) dengan menggunakan DML adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 5,
+      "originalNumber": 28
+    }
+  },
+  {
+    "id": "stsi4105-q029",
+    "subjectId": "subject-02",
+    "text": "Perintah DML berikut untuk memilih semua data pada tabel \"Mahasiswa\" yang terdiri dari kolom nama, NIM, dan semester adalah ….",
+    "options": {
+      "A": "SELECT nama, nim, semester FROM Mahasiswa;",
+      "B": "SELECT * FROM TABLE Mahasiswa",
+      "C": "SELECT COUNT(nama) FROM Mahasiswa;",
+      "D": "SELECT * WHERE Mahasiswa"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 5,
+      "originalNumber": 29
+    }
+  },
+  {
+    "id": "stsi4105-q030",
+    "subjectId": "subject-02",
+    "text": "Perintah DML untuk melakukan perubahan data nama menjadi \"Aditya R\" dan data alamat menjadi \"Denpasar\", pada tblpembeli untuk pembeli dengan idpembeli 3 adalah ….",
+    "options": {
+      "A": "UPDATE tblpembeli SET nama = 'Aditya R' AND alamat = 'Denpasar' WHERE idpembeli = 3;",
+      "B": "UPDATE tblpembeli SET nama = 'Aditya R', alamat = 'Denpasar' WHERE idpembeli = 3;",
+      "C": "UPDATE tblpembeli nama = 'Aditya R' AND alamat = 'Denpasar' WHERE idpembeli = 3;",
+      "D": "UPDATE tblpembeli nama = 'Aditya R', alamat = 'Denpasar' WHERE idpembeli = 3;"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 5,
+      "originalNumber": 30
+    }
+  },
+  {
+    "id": "stsi4105-q031",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk kelebihan dari Microsoft SQL Server adalah ….",
+    "options": {
+      "A": "Berjalan hanya pada sistem operasi Windows",
+      "B": "Berbayar",
+      "C": "Kurang cocok untuk skala besar",
+      "D": "Pengendalian terpusat"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 31
+    }
+  },
+  {
+    "id": "stsi4105-q032",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data bilangan bulat mulai dari −2.147.483.648 s.d. +2.147.483.647 adalah ….",
+    "options": {
+      "A": "SMALLINT",
+      "B": "DOUBLE",
+      "C": "MEDIUMINT",
+      "D": "INT"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 32
+    }
+  },
+  {
+    "id": "stsi4105-q033",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data teks mulai dari 0 s.d. 65.535 (2¹⁶ − 1 karakter) adalah ….",
+    "options": {
+      "A": "VARCHAR",
+      "B": "CHAR",
+      "C": "BLOB",
+      "D": "TEXT"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 33
+    }
+  },
+  {
+    "id": "stsi4105-q034",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data blob dengan ukuran maksimum 255 byte adalah ….",
+    "options": {
+      "A": "MEDIUMBLOB",
+      "B": "LONGBLOB",
+      "C": "BLOB",
+      "D": "TINYBLOB"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 34
+    }
+  },
+  {
+    "id": "stsi4105-q035",
+    "subjectId": "subject-02",
+    "text": "Terdapat properti-properti yang menjamin bahwa transaksi dalam basis data berjalan dengan baik, yaitu ACID. Yang termasuk dalam properti ACID tersebut adalah ….",
+    "options": {
+      "A": "Consistency",
+      "B": "Concurrency",
+      "C": "Aggregation",
+      "D": "Interpolation"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 35
+    }
+  },
+  {
+    "id": "stsi4105-q036",
+    "subjectId": "subject-02",
+    "text": "Mengakses data secara bersamaan menyebabkan data menjadi tidak konsisten. Data yang tidak konsisten dapat diatur dengan suatu mekanisme yang biasa disebut dengan ….",
+    "options": {
+      "A": "Locking protocol",
+      "B": "Concurrency control",
+      "C": "Isolation schema",
+      "D": "Error correction"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 36
+    }
+  },
+  {
+    "id": "stsi4105-q037",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang tidak termasuk ciri-ciri dari basis data terdistribusi Homogeneous adalah ….",
+    "options": {
+      "A": "DBMS yang sama digunakan di setiap lokasi",
+      "B": "DBMS yang berbeda dapat digunakan di setiap node",
+      "C": "Semua data dikelola oleh DBMS terdistribusi",
+      "D": "Skema global hanyalah gabungan dari semua skema basis data lokal"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 37
+    }
+  },
+  {
+    "id": "stsi4105-q038",
+    "subjectId": "subject-02",
+    "text": "Apa salah satu persyaratan untuk sebuah aplikasi memerlukan DBMS?",
+    "options": {
+      "A": "Aplikasi memerlukan waktu respons yang tidak terbatas dalam melakukan proses",
+      "B": "Aplikasi memerlukan proses komputasi yang sangat panjang dan berat selama memproses data",
+      "C": "Data didistribusikan ke hanya satu komputer yang tersedia",
+      "D": "Aplikasi memerlukan waktu respons dalam batasan yang tidak ketat"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 6,
+      "originalNumber": 38
+    }
+  },
+  {
+    "id": "stsi4105-q039",
+    "subjectId": "subject-02",
+    "text": "Dalam pengembangan sistem basis data, yang tidak termasuk ke dalam 5 tahapan adalah ….",
+    "options": {
+      "A": "Perencanaan",
+      "B": "Analisis",
+      "C": "Desain/perancangan",
+      "D": "Persiapan"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 39
+    }
+  },
+  {
+    "id": "stsi4105-q040",
+    "subjectId": "subject-02",
+    "text": "Yang TIDAK termasuk contoh masalah yang berhubungan dengan pemilihan desain sistem basis data adalah ….",
+    "options": {
+      "A": "Sistem backup",
+      "B": "Waktu tanggapan",
+      "C": "Perincian tampilan",
+      "D": "Mutu data"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 40
+    }
+  },
+  {
+    "id": "stsi4105-q041",
+    "subjectId": "subject-02",
+    "text": "Setelah memasukkan URL http://localhost/phpmyadmin pada browser, untuk membuat basis data yang harus dilakukan yaitu ….",
+    "options": {
+      "A": "Pilih menu SQL → masukkan nama basis data yang akan dibuat → klik Create",
+      "B": "Masukkan nama basis data yang akan dibuat → klik Create",
+      "C": "Pilih menu Databases → masukkan nama basis data yang akan dibuat → klik Create",
+      "D": "Pilih menu Databases → klik Create"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 41
+    }
+  },
+  {
+    "id": "stsi4105-q042",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Commit\n2) Rollback\n3) Checkpoint\n4) Errorpoint\n\nBerdasarkan pernyataan di atas, yang termasuk perintah-perintah transaksi dalam basis data adalah ….",
+    "options": {
+      "A": "1, 2, dan 3 benar",
+      "B": "1, 2, dan 4 benar",
+      "C": "1, 3, dan 4 benar",
+      "D": "2, 3, dan 4 benar"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 42
+    }
+  },
+  {
+    "id": "stsi4105-q043",
+    "subjectId": "subject-02",
+    "text": "Yang tidak termasuk event di dalam Trigger pada sebuah basis data adalah ….",
+    "options": {
+      "A": "Before update",
+      "B": "After rollback",
+      "C": "After update",
+      "D": "Before insert"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 43
+    }
+  },
+  {
+    "id": "stsi4105-q044",
+    "subjectId": "subject-02",
+    "text": "Diketahui IP Address PC1 adalah 192.168.10.11, IP Address PC2 adalah 192.168.10.12, dan IP Address PC3 adalah 192.168.10.13. Jika ingin mengetahui koneksi telah tersambung dari PC1 ke PC2, maka perintah yang ditulis adalah ….",
+    "options": {
+      "A": "ping 192.168.10.11",
+      "B": "ping 192.168.10.12",
+      "C": "ping 192.168.10.13",
+      "D": "ping 192.168.10.14"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 7,
+      "originalNumber": 44
+    }
+  },
+  {
+    "id": "stsi4105-q045",
+    "subjectId": "subject-02",
+    "text": "Pada konfigurasi basis data terdistribusi dalam hal replikasi basis data, opsi pengaturan akun agar memungkinkan untuk meminta pembaruan data pada server adalah ….",
+    "options": {
+      "A": "Replication slave",
+      "B": "Replication client",
+      "C": "Replication server",
+      "D": "Replication master"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 45
+    }
+  },
+  {
+    "id": "stsi4105-q046",
+    "subjectId": "subject-02",
+    "text": "Di bawah ini merupakan kondisi di dalam suatu basis data adalah ….",
+    "options": {
+      "A": "Data disimpan dengan cara-cara tertentu sehingga memudahkan ketika akan digunakan atau ditampilkan kembali",
+      "B": "Data dapat digunakan oleh satu aplikasi",
+      "C": "Data disimpan secara terstruktur dan ketergantungan dengan program-program yang akan menggunakannya",
+      "D": "Data disimpan sedemikian rupa sehingga proses penambahan, pengambilan, dan modifikasi data tidak dapat dilakukan dengan mudah dan terkontrol"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 46
+    }
+  },
+  {
+    "id": "stsi4105-q047",
+    "subjectId": "subject-02",
+    "text": "Yang bukan merupakan kekurangan dari basis data adalah ….",
+    "options": {
+      "A": "Tidak mudah dipahami",
+      "B": "Adanya tambahan biaya konversi",
+      "C": "Biaya dapat menjadi sangat mahal",
+      "D": "Tidak meningkatkan kemandirian data"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 47
+    }
+  },
+  {
+    "id": "stsi4105-q048",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang bukan merupakan sifat yang melekat pada suatu tabel adalah ….",
+    "options": {
+      "A": "Boleh ada record yang sama atau kembar",
+      "B": "Setiap field harus mempunyai nama yang unik atau tidak boleh ada yang sama",
+      "C": "Urutan record tidak penting karena data dalam record dapat diurutkan sesuai dengan kebutuhan",
+      "D": "Setiap field mesti mempunyai tipe data dan karakteristik tertentu"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 48
+    }
+  },
+  {
+    "id": "stsi4105-q049",
+    "subjectId": "subject-02",
+    "text": "Sistem basis data dapat diartikan ….",
+    "options": {
+      "A": "Suatu sistem yang di dalamnya terdiri dari koleksi data atau suatu kumpulan data yang saling berhubungan dan memungkinkan berbagai program untuk mengakses dan memanipulasi data tersebut",
+      "B": "Suatu sistem yang di dalamnya terdiri dari koleksi data atau suatu kumpulan data yang tidak saling berhubungan dan memungkinkan berbagai program untuk mengakses dan memanipulasi data tersebut sehingga tidak mampu menyediakan informasi yang diperlukan oleh pemakai",
+      "C": "Suatu sistem yang menyusun dan mengelola berkas digital suatu organisasi",
+      "D": "Suatu sistem yang menyusun dan mengelola berkas digital suatu organisasi, sehingga mampu menyediakan informasi yang diperlukan oleh pemakai"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 49
+    }
+  },
+  {
+    "id": "stsi4105-q050",
+    "subjectId": "subject-02",
+    "text": "Database Management System (DBMS) adalah ….",
+    "options": {
+      "A": "Paket program yang digunakan untuk membuat dan mengelola basis data",
+      "B": "Paket program yang digunakan untuk membuat dan mengelola arsip",
+      "C": "Sistem operasi yang digunakan untuk membuat dan mengelola basis data",
+      "D": "Sistem operasi yang digunakan untuk membuat dan mengelola arsip"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 50
+    }
+  },
+  {
+    "id": "stsi4105-q051",
+    "subjectId": "subject-02",
+    "text": "Lapisan di mana pengguna hanya mengenal struktur data sederhana yang berorientasi pada kebutuhan pengguna merupakan ….",
+    "options": {
+      "A": "Level fisik",
+      "B": "Level logik",
+      "C": "Level pandangan",
+      "D": "Level sistem"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 8,
+      "originalNumber": 51
+    }
+  },
+  {
+    "id": "stsi4105-q052",
+    "subjectId": "subject-02",
+    "text": "Model database yang biasa disebut juga dengan model pohon karena menyerupai pohon terbalik adalah ….",
+    "options": {
+      "A": "Model Database Jaringan",
+      "B": "Model Database Relasi",
+      "C": "Model Database Hierarki",
+      "D": "Model Database Entitas"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 52
+    }
+  },
+  {
+    "id": "stsi4105-q053",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk dalam kelompok model data berbasis fisik adalah ….",
+    "options": {
+      "A": "Unifying Model",
+      "B": "Hierarchical Model",
+      "C": "Network Model",
+      "D": "Relational Model"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 53
+    },
+    "needsVerification": true,
+    "verificationNote": "Tidak terdapat tanda centang (✓) pada pilihan A–D di halaman PDF sumber — ditandai untuk verifikasi manual agar tidak menebak kunci jawaban."
+  },
+  {
+    "id": "stsi4105-q054",
+    "subjectId": "subject-02",
+    "text": "Model di mana relasi antara objek dasar tidak dinyatakan dengan simbol, tetapi menggunakan kata-kata disebut dengan ….",
+    "options": {
+      "A": "Semantic Model",
+      "B": "Physical Based Data Model",
+      "C": "Network Model",
+      "D": "Relational Data Model"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 54
+    }
+  },
+  {
+    "id": "stsi4105-q055",
+    "subjectId": "subject-02",
+    "text": "Model konseptual yang dapat mendeskripsikan hubungan antar-entity yang digunakan dan untuk memodelkan struktur data serta hubungan antar-data disebut dengan ….",
+    "options": {
+      "A": "Entity Relationship Model",
+      "B": "Entity Relationship Diagram",
+      "C": "System Flow Diagram",
+      "D": "Data Flow Diagram"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 55
+    }
+  },
+  {
+    "id": "stsi4105-q056",
+    "subjectId": "subject-02",
+    "text": "Notasi yang digunakan dalam model ER untuk menunjukkan hubungan antarentitas adalah ….",
+    "options": {
+      "A": "Persegi panjang",
+      "B": "Garis",
+      "C": "Lingkaran",
+      "D": "Oval"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 56
+    }
+  },
+  {
+    "id": "stsi4105-q057",
+    "subjectId": "subject-02",
+    "text": "Kardinalitas relasi menunjukkan jumlah maksimum entitas yang dapat berelasi dengan entitas pada himpunan entitas yang lain. Kardinalitas relasi merujuk pada simbol berikut adalah ….",
+    "imageUrl": "/images/stsi4105/cardinality-zero-or-one.svg",
+    "imageAlt": "Simbol kardinalitas relasi belah ketupat dengan lingkaran dan satu garis vertikal ke persegi panjang",
+    "options": {
+      "A": "Selalu hanya satu",
+      "B": "Satu atau banyak",
+      "C": "Nol atau satu",
+      "D": "Nol, satu, atau banyak"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 9,
+      "originalNumber": 57
+    },
+    "needsVerification": true,
+    "verificationNote": "Tidak terdapat tanda centang (✓) pada pilihan A–D di halaman PDF sumber — ditandai untuk verifikasi manual agar tidak menebak kunci jawaban."
+  },
+  {
+    "id": "stsi4105-q058",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Tidak memiliki ketergantungan dengan himpunan entitas lainnya atau dapat berdiri sendiri, contoh himpunan entitas mahasiswa, dosen, dan kuliah sebagaimana yang ditunjukkan di contoh sebelumnya.\n2) Entitas yang kemunculannya tergantung pada eksistensinya dalam sebuah relasi terhadap entitas lain (Strong Entity).\n3) Kemunculan entitas-entitas di dalamnya tidak tergantung pada keberadaan entitas di dalam himpunan entitas yang lain.\n4) Bukan merupakan bagian sub dari himpunan entitas yang lain.\n\nBerdasarkan pernyataan di atas, yang dimaksud dengan himpunan entitas yang kuat atau bebas adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 10,
+      "originalNumber": 58
+    }
+  },
+  {
+    "id": "stsi4105-q059",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Penambahan atribut.\n2) Pemilihan domain atribut yang lebih luas direalisasikan pada tahap implementasi.\n3) Generalisasi.\n4) Abstraksi.\n\nBerdasarkan pernyataan di atas, fleksibilitas dalam desain basis data dapat direalisasikan dalam bentuk ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 10,
+      "originalNumber": 59
+    }
+  },
+  {
+    "id": "stsi4105-q060",
+    "subjectId": "subject-02",
+    "text": "Deretan komponen yang dapat Anda pilih dalam menjalankan aplikasi yEd Graph Editor disebut dengan ….",
+    "options": {
+      "A": "Menu bar",
+      "B": "Toolbar",
+      "C": "Properties Mapper",
+      "D": "Editor Window"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 10,
+      "originalNumber": 60
+    }
+  },
+  {
+    "id": "stsi4105-q061",
+    "subjectId": "subject-02",
+    "text": "Pada aplikasi yEd Graph Editor, untuk membuka file yang pernah dibuka sebelumnya melalui menu ….",
+    "options": {
+      "A": "File → New",
+      "B": "File → Open",
+      "C": "File → Recent Document",
+      "D": "File → Open URL"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 10,
+      "originalNumber": 61
+    }
+  },
+  {
+    "id": "stsi4105-q062",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Entitas dengan atribut\n2) Entitas\n3) Entitas lemah\n4) Entitas primary key\n\nBerdasarkan pernyataan di atas, yang termasuk objek entitas yang tersedia dalam aplikasi yEd Graph Editor adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 10,
+      "originalNumber": 62
+    }
+  },
+  {
+    "id": "stsi4105-q063",
+    "subjectId": "subject-02",
+    "text": "Untuk menambahkan entitas pada yEd Graph Editor dengan cara melakukan …. icon Entity dari Palette ke halaman editor.",
+    "options": {
+      "A": "Copy and paste",
+      "B": "Double click",
+      "C": "Drag and drop",
+      "D": "Klik kanan pada mouse dan klik Apply"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 11,
+      "originalNumber": 63
+    }
+  },
+  {
+    "id": "stsi4105-q064",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Mengidentifikasikan yang mendukung data\n2) Optimalisasi kesesuaian hubungan struktur relasi data\n3) Menghilangkan kerangkapan data\n4) Mempermudah proses modifikasi data\n\nBerdasarkan pernyataan di atas, yang termasuk tujuan normalisasi adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 11,
+      "originalNumber": 64
+    }
+  },
+  {
+    "id": "stsi4105-q065",
+    "subjectId": "subject-02",
+    "text": "Urutan tahapan normalisasi yang tepat dimulai dari 3NF adalah ….",
+    "options": {
+      "A": "3NF, 4NF, BCNF",
+      "B": "3NF, BCNF, 5NF",
+      "C": "3NF, 4NF, 5NF",
+      "D": "3NF, BCNF, 4NF"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 11,
+      "originalNumber": 65
+    }
+  },
+  {
+    "id": "stsi4105-q066",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Tidak dapat menyisipkan informasi parsial\n2) Terhapusnya informasi ketika menghapus sebuah record\n3) Tidak terhapusnya informasi ketika menghapus sebuah record\n4) Pembaruan atribut non-kunci mengakibatkan sejumlah record harus diperbarui.\n\nBerdasarkan pernyataan di atas, yang termasuk permasalahan dalam 1NF adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 11,
+      "originalNumber": 66
+    }
+  },
+  {
+    "id": "stsi4105-q067",
+    "subjectId": "subject-02",
+    "text": "Pada basis data relational, redundansi tidak bisa dihilangkan sama sekali karena diperlukannya atribut-atribut yang berfungsi sebagai ….",
+    "options": {
+      "A": "Candidate key",
+      "B": "Index",
+      "C": "Primary key",
+      "D": "Composite key"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 11,
+      "originalNumber": 67
+    }
+  },
+  {
+    "id": "stsi4105-q068",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Atribut Terkodekan\n2) Atribut Gabungan\n3) Atribut Tumpang Tindih\n4) Atribut Bermakna Tunggal\n\nBerdasarkan pernyataan di atas, yang termasuk dalam bentuk denormalisasi jenis atribut berlebihan adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 12,
+      "originalNumber": 68
+    }
+  },
+  {
+    "id": "stsi4105-q069",
+    "subjectId": "subject-02",
+    "text": "Bahasa khusus yang digunakan untuk menentukan dan melakukan manipulasi nilai-nilai di dalam suatu tabel pada suatu waktu yang diinginkan adalah ….",
+    "options": {
+      "A": "SQL",
+      "B": "DCL",
+      "C": "DDL",
+      "D": "DML"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 12,
+      "originalNumber": 69
+    }
+  },
+  {
+    "id": "stsi4105-q070",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) DDL\n2) DML\n3) DCL\n4) DPL\n\nBerdasarkan pernyataan di atas, yang termasuk pembagian dari Structured Query Language adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 12,
+      "originalNumber": 70
+    }
+  },
+  {
+    "id": "stsi4105-q071",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) CREATE BACKUP\n2) CREATE DATABASE\n3) CREATE TABLE\n4) CREATE INDEX\n\nBerdasarkan pernyataan di atas, yang termasuk dalam perintah DDL adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 12,
+      "originalNumber": 71
+    }
+  },
+  {
+    "id": "stsi4105-q072",
+    "subjectId": "subject-02",
+    "text": "Perintah DDL yang digunakan untuk menghapus kolom Kelamin pada tabel tblpembeli adalah ….",
+    "options": {
+      "A": "ALTER TABLE tblpembeli DELETE Kelamin CHAR(1);",
+      "B": "ALTER TABLE tblpembeli DROP Kelamin;",
+      "C": "ALTER TABLE tblpembeli DROP Kelamin CHAR(1);",
+      "D": "ALTER TABLE tblpembeli DELETE Kelamin;"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 12,
+      "originalNumber": 72
+    }
+  },
+  {
+    "id": "stsi4105-q073",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Pengambilan informasi yang disimpan dalam relasi basis data.\n2) Penempatan informasi baru dalam basis data.\n3) Penghapusan informasi dari basis data.\n4) Modifikasi informasi yang disimpan dalam basis data.\n\nBerdasarkan pernyataan di atas, yang termasuk manipulasi data menurut Octaviani (2010) dengan menggunakan DML adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 73
+    }
+  },
+  {
+    "id": "stsi4105-q074",
+    "subjectId": "subject-02",
+    "text": "Perintah DML untuk menampilkan data pada tblpembeli dengan filter nama ‘Maulana’ dan idpembeli = 4 adalah ….",
+    "options": {
+      "A": "SELECT * FROM tblpembeli WHERE nama = 'Maulana' AND idpembeli = 4;",
+      "B": "SELECT * FROM tblpembeli WHICH nama = 'Maulana' AND idpembeli = 4;",
+      "C": "SELECT * FROM tblpembeli WHERE nama = Maulana AND idpembeli = 4;",
+      "D": "SELECT * FROM tblpembeli WHICH nama = Maulana AND idpembeli = 4;"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 74
+    }
+  },
+  {
+    "id": "stsi4105-q075",
+    "subjectId": "subject-02",
+    "text": "Perintah DML untuk melakukan perubahan data pada tblpembeli dengan Nama_pembeli menjadi ‘Mauliani’ untuk pembeli dengan Kode_pembeli 12 adalah ….",
+    "options": {
+      "A": "UPDATE tblpembeli SET Nama_pembeli = Mauliani WHERE Kode_pembeli = 12;",
+      "B": "UPDATE tblpembeli SET Nama_pembeli = Mauliani WHICH Kode_pembeli = 12;",
+      "C": "UPDATE tblpembeli SET Nama_pembeli = \"Mauliani\" WHERE Kode_pembeli = 12;",
+      "D": "UPDATE tblpembeli SET Nama_pembeli = \"Mauliani\" WHICH Kode_pembeli = 12;"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 75
+    }
+  },
+  {
+    "id": "stsi4105-q076",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk kelebihan dari Microsoft SQL Server adalah ….",
+    "options": {
+      "A": "Berjalan hanya pada sistem operasi Windows",
+      "B": "Berbayar",
+      "C": "Kurang cocok untuk skala besar",
+      "D": "Pengendalian terpusat"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 76
+    }
+  },
+  {
+    "id": "stsi4105-q077",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data bilangan bulat mulai −128 s.d. +127 adalah ….",
+    "options": {
+      "A": "SMALLINT",
+      "B": "TINYINT",
+      "C": "INT",
+      "D": "FLOAT"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 77
+    }
+  },
+  {
+    "id": "stsi4105-q078",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data string dengan ukuran hingga 16.777.215 (2²⁴ − 1 karakter) adalah ….",
+    "options": {
+      "A": "MEDIUMTEXT",
+      "B": "VARCHAR",
+      "C": "CHAR",
+      "D": "BLOB"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 13,
+      "originalNumber": 78
+    }
+  },
+  {
+    "id": "stsi4105-q079",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data biner dengan ukuran 64 digit biner adalah ….",
+    "options": {
+      "A": "BIT",
+      "B": "LONGBLOB",
+      "C": "BLOB",
+      "D": "BYTE"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 79
+    }
+  },
+  {
+    "id": "stsi4105-q080",
+    "subjectId": "subject-02",
+    "text": "Terdapat properti-properti yang menjamin bahwa transaksi dalam basis data berjalan dengan baik, yaitu ACID. Yang termasuk dalam properti ACID tersebut adalah ….",
+    "options": {
+      "A": "Consistency",
+      "B": "Concurrency",
+      "C": "Aggregation",
+      "D": "Interpolation"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 80
+    }
+  },
+  {
+    "id": "stsi4105-q081",
+    "subjectId": "subject-02",
+    "text": "Menurut Connolly dan Begg, aturan yang mengatur operasi pada sebuah transaksi tanpa mengganggu transaksi lain sehingga data menjadi konsisten disebut dengan ….",
+    "options": {
+      "A": "Locking protocol",
+      "B": "Isolation schema",
+      "C": "Error correction",
+      "D": "Concurrency control"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 81
+    }
+  },
+  {
+    "id": "stsi4105-q082",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang tidak termasuk ciri-ciri dari basis data terdistribusi Homogeneous adalah ….",
+    "options": {
+      "A": "DBMS yang sama digunakan di setiap lokasi",
+      "B": "DBMS yang berbeda dapat digunakan di setiap node",
+      "C": "Semua data dikelola oleh DBMS terdistribusi",
+      "D": "Skema global hanyalah gabungan dari semua skema basis data lokal"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 82
+    }
+  },
+  {
+    "id": "stsi4105-q083",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang tidak termasuk persyaratan bahwa sebuah sistem memerlukan DBMS adalah ….",
+    "options": {
+      "A": "Aplikasi memerlukan proses komputasi yang sangat panjang dan berat selama memproses data",
+      "B": "Data didistribusikan ke berbagai jenis komputer yang berbeda",
+      "C": "Aplikasi memerlukan waktu respons yang tidak terbatas dalam batasan yang ketat",
+      "D": "Aplikasi memerlukan waktu respons yang sangat terbatas dalam batasan yang ketat"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 83
+    }
+  },
+  {
+    "id": "stsi4105-q084",
+    "subjectId": "subject-02",
+    "text": "Dalam pengembangan sistem basis data, yang TIDAK termasuk ke dalam 3 tahapan adalah ….",
+    "options": {
+      "A": "Analisis",
+      "B": "Desain dan perancangan",
+      "C": "Penggunaan",
+      "D": "Implementasi"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 14,
+      "originalNumber": 84
+    }
+  },
+  {
+    "id": "stsi4105-q085",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Kelayakan ekonomi\n2) Kelayakan material\n3) Kelayakan hukum\n4) Kelayakan jadwal\n\nBerdasarkan pernyataan di atas, yang termasuk analisis kelayakan pengembangan sistem basis data adalah ….",
+    "options": {
+      "A": "1, 2, dan 3 benar",
+      "B": "1, 2, dan 4 benar",
+      "C": "1, 3, dan 4 benar",
+      "D": "2, 3, dan 4 benar"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 85
+    }
+  },
+  {
+    "id": "stsi4105-q086",
+    "subjectId": "subject-02",
+    "text": "Setelah memasukkan URL http://localhost/phpmyadmin pada browser, untuk membuat basis data yang harus dilakukan yaitu ….",
+    "options": {
+      "A": "Pilih menu SQL → masukkan nama basis data yang akan dibuat → klik Create",
+      "B": "Masukkan nama basis data yang akan dibuat → klik Create",
+      "C": "Pilih menu Databases → masukkan nama basis data yang akan dibuat → klik Create",
+      "D": "Pilih menu Databases → klik Create"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 86
+    }
+  },
+  {
+    "id": "stsi4105-q087",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Commit\n2) Rollback\n3) Checkpoint\n4) Errorpoint\n\nBerdasarkan pernyataan di atas, yang termasuk perintah-perintah transaksi dalam basis data adalah ….",
+    "options": {
+      "A": "1, 2, dan 3 benar",
+      "B": "1, 2, dan 4 benar",
+      "C": "1, 3, dan 4 benar",
+      "D": "2, 3, dan 4 benar"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 87
+    }
+  },
+  {
+    "id": "stsi4105-q088",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) After select\n2) Before insert\n3) After insert\n4) Before delete\n\nBerdasarkan pernyataan di atas, yang termasuk event dalam Trigger dalam basis data adalah ….",
+    "options": {
+      "A": "1, 2, dan 3 benar",
+      "B": "1, 2, dan 4 benar",
+      "C": "1, 3, dan 4 benar",
+      "D": "2, 3, dan 4 benar"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 88
+    }
+  },
+  {
+    "id": "stsi4105-q089",
+    "subjectId": "subject-02",
+    "text": "Diketahui IP Address PC1 adalah 192.168.10.11, IP Address PC2 adalah 192.168.10.12, dan IP Address PC3 adalah 192.168.10.13. Jika ingin mengetahui koneksi telah tersambung dari PC1 ke PC2, maka perintah yang ditulis adalah ….",
+    "options": {
+      "A": "ping 192.168.10.11",
+      "B": "ping 192.168.10.12",
+      "C": "ping 192.168.10.13",
+      "D": "ping 192.168.10.14"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 89
+    }
+  },
+  {
+    "id": "stsi4105-q090",
+    "subjectId": "subject-02",
+    "text": "Setelah memasukkan URL http://localhost/phpmyadmin pada browser, untuk melakukan konfigurasi replikasi pada Master Replication yang harus dilakukan yaitu ….",
+    "options": {
+      "A": "Pilih menu SQL → pada Master Replication → klik Configure it",
+      "B": "Pilih menu New → pada Master Replication → klik Configure it",
+      "C": "Pilih menu Replication → pada Master Replication → klik Configure it",
+      "D": "Pilih menu Replication → klik Configure it"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 15,
+      "originalNumber": 90
+    }
+  },
+  {
+    "id": "stsi4105-q091",
+    "subjectId": "subject-02",
+    "text": "Yang bukan merupakan alasan mengapa sebuah organisasi atau perusahaan memerlukan sebuah basis data adalah ….",
+    "options": {
+      "A": "Pengelolaan data yang besar",
+      "B": "Akurasi data",
+      "C": "Mudah dalam proses manipulasi data",
+      "D": "Regulasi data"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 16,
+      "originalNumber": 91
+    }
+  },
+  {
+    "id": "stsi4105-q092",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Meningkatkan aksesibilitas terhadap data dan respons yang lebih baik.\n2) Ketika dilakukan perubahan pada sebuah nilai, nilai baru tersebut akan tersedia untuk semua pengguna.\n3) Data dalam sebuah basis data dilakukan penyimpanan dengan cara disimpan beberapa kali.\n4) Basis data dapat digunakan untuk bermacam-macam aplikasi tanpa harus mengubah format data yang sudah ada.\n\nBerdasarkan pernyataan di atas, yang merupakan kelebihan dari basis data adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 16,
+      "originalNumber": 92
+    }
+  },
+  {
+    "id": "stsi4105-q093",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang bukan merupakan sifat yang melekat pada suatu tabel adalah ….",
+    "options": {
+      "A": "Boleh ada record yang sama atau kembar",
+      "B": "Setiap field harus mempunyai nama yang unik atau tidak boleh ada yang sama",
+      "C": "Urutan record tidak penting karena data dalam record dapat diurutkan sesuai dengan kebutuhan",
+      "D": "Setiap field mesti mempunyai tipe data dan karakteristik tertentu"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 16,
+      "originalNumber": 93
+    }
+  },
+  {
+    "id": "stsi4105-q094",
+    "subjectId": "subject-02",
+    "text": "Sistem basis data dapat diartikan ….",
+    "options": {
+      "A": "Suatu sistem yang di dalamnya terdiri dari koleksi data atau suatu kumpulan data yang saling berhubungan dan memungkinkan berbagai program untuk mengakses dan memanipulasi data tersebut",
+      "B": "Suatu sistem yang di dalamnya terdiri dari koleksi data atau suatu kumpulan data yang tidak saling berhubungan dan memungkinkan berbagai program untuk mengakses dan memanipulasi data tersebut sehingga tidak mampu menyediakan informasi yang diperlukan oleh pemakai",
+      "C": "Suatu sistem yang menyusun dan mengelola berkas digital suatu organisasi",
+      "D": "Suatu sistem yang menyusun dan mengelola berkas digital suatu organisasi, sehingga mampu menyediakan informasi yang diperlukan oleh pemakai"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 16,
+      "originalNumber": 94
+    }
+  },
+  {
+    "id": "stsi4105-q095",
+    "subjectId": "subject-02",
+    "text": "Yang merupakan tujuan dari Database Management System (DBMS) adalah ….",
+    "options": {
+      "A": "Menyediakan lingkungan yang mudah dan nyaman bagi pengguna dalam membuat presentasi serta menyimpan data dan informasi",
+      "B": "Menyediakan lingkungan yang mudah dan nyaman bagi pengguna dalam mengedit video serta menyimpan data dan informasi",
+      "C": "Menyediakan lingkungan yang mudah dan nyaman bagi pengguna dalam mendesain grafis serta menyimpan data dan informasi",
+      "D": "Menyediakan lingkungan yang mudah dan nyaman bagi pengguna dalam mengambil dan menyimpan data serta informasi"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 16,
+      "originalNumber": 95
+    }
+  },
+  {
+    "id": "stsi4105-q096",
+    "subjectId": "subject-02",
+    "text": "Lapisan yang biasa dipakai oleh Database Administrator (DBA) adalah ….",
+    "options": {
+      "A": "Level fisik",
+      "B": "Level pandangan",
+      "C": "Level sistem",
+      "D": "Level logik"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 96
+    }
+  },
+  {
+    "id": "stsi4105-q097",
+    "subjectId": "subject-02",
+    "text": "Model database yang biasa disebut juga dengan model pohon karena menyerupai pohon terbalik adalah ….",
+    "options": {
+      "A": "Model Database Jaringan",
+      "B": "Model Database Relasi",
+      "C": "Model Database Hierarki",
+      "D": "Model Database Entitas"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 97
+    }
+  },
+  {
+    "id": "stsi4105-q098",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk dalam kelompok model data berbasis fisik adalah ….",
+    "options": {
+      "A": "Unifying Model",
+      "B": "Hierarchical Model",
+      "C": "Network Model",
+      "D": "Relational Model"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 98
+    }
+  },
+  {
+    "id": "stsi4105-q099",
+    "subjectId": "subject-02",
+    "text": "Berikut ini sekumpulan record dan relasi antar-data direpresentasikan oleh record dan link adalah ….",
+    "options": {
+      "A": "Object Based Data Model",
+      "B": "Hierarchical Data Model",
+      "C": "Physical Based Data Model",
+      "D": "Plex Structure Model"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 99
+    }
+  },
+  {
+    "id": "stsi4105-q100",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang digunakan oleh seorang perancang sistem untuk memodelkan data dari hasil analisis yang nantinya akan dikembangkan menjadi basis data adalah ….",
+    "options": {
+      "A": "Entity Relationship Model",
+      "B": "System Flow Diagram",
+      "C": "Data Flow Diagram",
+      "D": "Entity Relationship Diagram"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 100
+    }
+  },
+  {
+    "id": "stsi4105-q101",
+    "subjectId": "subject-02",
+    "text": "Notasi yang digunakan dalam model ER untuk menunjukkan hubungan antarentitas adalah ….",
+    "options": {
+      "A": "Persegi panjang",
+      "B": "Garis",
+      "C": "Lingkaran",
+      "D": "Oval"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 101
+    }
+  },
+  {
+    "id": "stsi4105-q102",
+    "subjectId": "subject-02",
+    "text": "Kardinalitas relasi menunjukkan jumlah maksimum entitas yang dapat berelasi dengan entitas pada himpunan entitas yang lain. Kardinalitas relasi merujuk pada simbol berikut, adalah ….",
+    "imageUrl": "/images/stsi4105/cardinality-one-only.svg",
+    "imageAlt": "Simbol kardinalitas relasi belah ketupat dengan dua garis vertikal ke persegi panjang",
+    "options": {
+      "A": "Selalu hanya satu",
+      "B": "Satu atau banyak",
+      "C": "Nol atau satu",
+      "D": "Nol, satu, atau banyak"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 17,
+      "originalNumber": 102
+    },
+    "needsVerification": true,
+    "verificationNote": "Tidak terdapat tanda centang (✓) pada pilihan A–D di halaman PDF sumber — ditandai untuk verifikasi manual agar tidak menebak kunci jawaban."
+  },
+  {
+    "id": "stsi4105-q103",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Strong Entity Sets\n2) Weak Entity Sets\n3) Supra Entity\n4) Subtype Entities\n\nBerdasarkan pernyataan di atas, yang termasuk varian entitas adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 18,
+      "originalNumber": 103
+    }
+  },
+  {
+    "id": "stsi4105-q104",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Paralel\n2) Sekuensial\n3) Mnemonic\n4) Block\n\nBerdasarkan pernyataan di atas, yang termasuk cara yang ditempuh untuk menyatakan suatu data dalam bentuk lain melalui pengkodean (data coding) adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 18,
+      "originalNumber": 104
+    },
+    "needsVerification": true,
+    "verificationNote": "Tidak terdapat tanda centang (✓) pada pilihan A–D di halaman PDF sumber — ditandai untuk verifikasi manual agar tidak menebak kunci jawaban."
+  },
+  {
+    "id": "stsi4105-q105",
+    "subjectId": "subject-02",
+    "text": "Deretan komponen yang dapat Anda pilih dalam menjalankan aplikasi yEd Graph Editor disebut dengan ….",
+    "options": {
+      "A": "Menu bar",
+      "B": "Toolbar",
+      "C": "Properties Mapper",
+      "D": "Editor Window"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 18,
+      "originalNumber": 105
+    }
+  },
+  {
+    "id": "stsi4105-q106",
+    "subjectId": "subject-02",
+    "text": "Fitur yang digunakan untuk menghubungkan dua elemen dalam diagram pada yEd Graph Editor adalah ….",
+    "options": {
+      "A": "Bridge",
+      "B": "Edge",
+      "C": "Relation",
+      "D": "Link"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 18,
+      "originalNumber": 106
+    }
+  },
+  {
+    "id": "stsi4105-q107",
+    "subjectId": "subject-02",
+    "text": "Pada aplikasi yEd Graph Editor, simbol berikut menggambarkan ….",
+    "imageUrl": "/images/stsi4105/yed-entity-attr.svg",
+    "imageAlt": "Simbol Entity dengan bagian atribut pada yEd Graph Editor",
+    "options": {
+      "A": "Entity dengan atribut",
+      "B": "Atribut entity",
+      "C": "Entity lemah",
+      "D": "Multivalue entity"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 18,
+      "originalNumber": 107
+    }
+  },
+  {
+    "id": "stsi4105-q108",
+    "subjectId": "subject-02",
+    "text": "Perhatikan gambar di bawah ini. Simbol yang dapat mengganti entitas Mahasiswa dan atribut NIM adalah ….",
+    "imageUrl": "/images/stsi4105/yed-mhs-nim.svg",
+    "imageAlt": "Entitas Mahasiswa terhubung ke atribut NIM",
+    "options": {
+      "A": "(1,1)",
+      "B": "Unspecified",
+      "C": "(0,1)",
+      "D": "(0,N)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 108
+    }
+  },
+  {
+    "id": "stsi4105-q109",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang termasuk ciri dari relasi yang optimal adalah ….",
+    "options": {
+      "A": "Minimalisasi kerangkapan data guna meningkatkan kinerja sistem",
+      "B": "Memiliki struktur record yang konsisten secara fisik",
+      "C": "Memiliki struktur record yang kompleks dan tidak mudah untuk dimengerti",
+      "D": "Memiliki struktur record yang kompleks dalam pemeliharaan"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 109
+    }
+  },
+  {
+    "id": "stsi4105-q110",
+    "subjectId": "subject-02",
+    "text": "Urutan tahapan normalisasi yang tepat dimulai dari Bentuk Tidak Normal adalah ….",
+    "options": {
+      "A": "Bentuk tidak normal, 1NF, 2NF",
+      "B": "Bentuk tidak normal, 2NF, 3NF",
+      "C": "Bentuk tidak normal, BCNF, 1NF",
+      "D": "Bentuk tidak normal, BCNF, 2NF"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 110
+    }
+  },
+  {
+    "id": "stsi4105-q111",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Relasi mempunyai bentuk non-flat file\n2) Relasi memuat set atribut berulang\n3) Relasi memuat set atribut tidak berulang\n4) Relasi memuat atribut non-atomic value\n\nBerdasarkan pernyataan di atas, yang termasuk kriteria relasi bentuk UNF adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 111
+    }
+  },
+  {
+    "id": "stsi4105-q112",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang termasuk konsekuensi dari redundansi data yang berlebihan adalah ….",
+    "options": {
+      "A": "Memperkuat integritas basis data",
+      "B": "Membutuhkan ruang penyimpanan lebih besar",
+      "C": "Memperkuat integritas relasi basis data",
+      "D": "Tidak memerlukan waktu tambahan pada setiap proses pengubahan data"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 112
+    }
+  },
+  {
+    "id": "stsi4105-q113",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Atribut Terkodekan\n2) Atribut Gabungan\n3) Atribut Tumpang Tindih\n4) Atribut Bermakna Tunggal\n\nBerdasarkan pernyataan di atas, yang termasuk dalam bentuk denormalisasi jenis atribut berlebihan adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 19,
+      "originalNumber": 113
+    }
+  },
+  {
+    "id": "stsi4105-q114",
+    "subjectId": "subject-02",
+    "text": "Bahasa khusus yang digunakan untuk pendefinisian skema yang berisi perintah-perintah untuk menciptakan objek-objek basis data (table, indeks, view, dan lainnya) adalah ….",
+    "options": {
+      "A": "SQL",
+      "B": "DCL",
+      "C": "DDL",
+      "D": "DML"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 114
+    }
+  },
+  {
+    "id": "stsi4105-q115",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) ALTER\n2) TRIGGER\n3) SELECT\n4) UPDATE\n\nBerdasarkan pernyataan di atas, yang termasuk perintah dasar dari Structured Query Language adalah ….",
+    "options": {
+      "A": "1, 2, dan 3",
+      "B": "1, 2, dan 4",
+      "C": "1, 3, dan 4",
+      "D": "2, 3, dan 4"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 115
+    }
+  },
+  {
+    "id": "stsi4105-q116",
+    "subjectId": "subject-02",
+    "text": "Berikut ini yang tidak termasuk dalam perintah DDL adalah ….",
+    "options": {
+      "A": "CREATE BACKUP",
+      "B": "CREATE DATABASE",
+      "C": "CREATE TABLE",
+      "D": "CREATE INDEX"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 116
+    }
+  },
+  {
+    "id": "stsi4105-q117",
+    "subjectId": "subject-02",
+    "text": "Perintah DDL yang digunakan untuk menghapus kolom Kelamin pada tabel tblpembeli adalah ….",
+    "options": {
+      "A": "ALTER TABLE tblpembeli DELETE Kelamin CHAR(1);",
+      "B": "ALTER TABLE tblpembeli DROP Kelamin;",
+      "C": "ALTER TABLE tblpembeli DROP Kelamin CHAR(1);",
+      "D": "ALTER TABLE tblpembeli DELETE Kelamin;"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 117
+    }
+  },
+  {
+    "id": "stsi4105-q118",
+    "subjectId": "subject-02",
+    "text": "Yang tidak termasuk manipulasi data adalah ….",
+    "options": {
+      "A": "Penempatan informasi baru dalam basis data",
+      "B": "Pengambilan informasi yang disimpan dalam relasi basis data",
+      "C": "Penghapusan informasi dari basis data",
+      "D": "Modifikasi informasi yang disimpan dalam basis data"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 118
+    },
+    "needsVerification": true,
+    "verificationNote": "Tidak terdapat tanda centang (✓) pada pilihan A–D di halaman PDF sumber — ditandai untuk verifikasi manual agar tidak menebak kunci jawaban."
+  },
+  {
+    "id": "stsi4105-q119",
+    "subjectId": "subject-02",
+    "text": "Perintah DML berikut untuk menambah data pembeli yaitu idpembeli = 4, nama = Klarisa, dan alamat = Bandung pada tabel \"tblpembeli\" yang memiliki kolom idpembeli, nama, alamat adalah ….",
+    "options": {
+      "A": "INSERT INTO tblpembeli(idpembeli, nama, alamat) = (4, 'Klarisa', 'Bandung');",
+      "B": "INSERT INTO tblpembeli(idpembeli, nama, alamat) VALUES 4, 'Klarisa', 'Bandung';",
+      "C": "INSERT INTO tblpembeli(idpembeli, nama, alamat) VALUES (4, 'Klarisa', 'Bandung');",
+      "D": "INSERT INTO tblpembeli(idpembeli, nama, alamat) = (4, 'Klarisa', 'Bandung');"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 20,
+      "originalNumber": 119
+    }
+  },
+  {
+    "id": "stsi4105-q120",
+    "subjectId": "subject-02",
+    "text": "Perintah DML untuk melakukan penghapusan data pada tblpembeli dengan Kode_pembeli 12 adalah ….",
+    "options": {
+      "A": "DELETE FROM tblpembeli WHERE Kode_pembeli = 12;",
+      "B": "DELETE FROM tblpembeli WHICH Kode_pembeli = 12;",
+      "C": "DELETE tblpembeli WHERE Kode_pembeli = 12;",
+      "D": "DELETE tblpembeli WHICH Kode_pembeli = 12;"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 120
+    }
+  },
+  {
+    "id": "stsi4105-q121",
+    "subjectId": "subject-02",
+    "text": "Yang termasuk kekurangan dari Microsoft SQL Server adalah ….",
+    "options": {
+      "A": "Berjalan pada semua jenis sistem operasi Windows",
+      "B": "Dapat membuat clustering data",
+      "C": "Bahasa pemrograman terbatas",
+      "D": "Pengendalian terpusat"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 121
+    }
+  },
+  {
+    "id": "stsi4105-q122",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data bilangan bulat positif dan negatif mulai −32.768 s.d. 32.767 adalah ….",
+    "options": {
+      "A": "SMALLINT",
+      "B": "DOUBLE",
+      "C": "INT",
+      "D": "FLOAT"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 122
+    }
+  },
+  {
+    "id": "stsi4105-q123",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data string dengan ukuran hingga 16.777.215 (2²⁴ − 1 karakter) adalah ….",
+    "options": {
+      "A": "MEDIUMTEXT",
+      "B": "VARCHAR",
+      "C": "CHAR",
+      "D": "BLOB"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 123
+    }
+  },
+  {
+    "id": "stsi4105-q124",
+    "subjectId": "subject-02",
+    "text": "Tipe data pada MySQL/MariaDB yang digunakan untuk menyimpan data blob dengan ukuran maksimum 255 byte adalah ….",
+    "options": {
+      "A": "MEDIUMBLOB",
+      "B": "LONGBLOB",
+      "C": "BLOB",
+      "D": "TINYBLOB"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 124
+    }
+  },
+  {
+    "id": "stsi4105-q125",
+    "subjectId": "subject-02",
+    "text": "Terdapat properti-properti yang menjamin bahwa transaksi dalam basis data berjalan dengan baik, yaitu ACID. Yang termasuk dalam properti ACID tersebut adalah ….",
+    "options": {
+      "A": "Consistency",
+      "B": "Concurrency",
+      "C": "Aggregation",
+      "D": "Interpolation"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 125
+    }
+  },
+  {
+    "id": "stsi4105-q126",
+    "subjectId": "subject-02",
+    "text": "Menurut Connolly dan Begg, aturan yang mengatur operasi pada sebuah transaksi tanpa mengganggu transaksi lain sehingga data menjadi konsisten disebut dengan ….",
+    "options": {
+      "A": "Locking protocol",
+      "B": "Isolation schema",
+      "C": "Error correction",
+      "D": "Concurrency control"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 21,
+      "originalNumber": 126
+    }
+  },
+  {
+    "id": "stsi4105-q127",
+    "subjectId": "subject-02",
+    "text": "Perhatikan pernyataan-pernyataan berikut ini.\n1) Data didistribusikan di semua node.\n2) DBMS yang berbeda dapat digunakan di setiap node.\n3) DBMS yang sama digunakan di setiap node.\n4) Ada skema global, yang memungkinkan pengguna lokal mengakses data jarak jauh.\n\nBerdasarkan pernyataan di atas, yang merupakan ciri-ciri dari basis data terdistribusi Heterogeneous adalah ….",
+    "options": {
+      "A": "1, 2, dan 3 benar",
+      "B": "1, 2, dan 4 benar",
+      "C": "1, 3, dan 4 benar",
+      "D": "2, 3, dan 4 benar"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 127
+    }
+  },
+  {
+    "id": "stsi4105-q128",
+    "subjectId": "subject-02",
+    "text": "Apa salah satu persyaratan untuk sebuah aplikasi memerlukan DBMS?",
+    "options": {
+      "A": "Aplikasi memerlukan waktu respons yang tidak terbatas dalam melakukan proses",
+      "B": "Aplikasi memerlukan proses komputasi yang sangat panjang dan berat selama memproses data",
+      "C": "Data didistribusikan ke hanya satu komputer yang tersedia",
+      "D": "Aplikasi memerlukan waktu respons dalam batasan yang tidak ketat"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 128
+    }
+  },
+  {
+    "id": "stsi4105-q129",
+    "subjectId": "subject-02",
+    "text": "Dalam pengembangan sistem basis data, yang TIDAK termasuk ke dalam 3 tahapan adalah ….",
+    "options": {
+      "A": "Analisis",
+      "B": "Desain dan perancangan",
+      "C": "Penggunaan",
+      "D": "Implementasi"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 129
+    }
+  },
+  {
+    "id": "stsi4105-q130",
+    "subjectId": "subject-02",
+    "text": "Yang TIDAK termasuk contoh masalah yang berhubungan dengan pemilihan desain sistem basis data adalah ….",
+    "options": {
+      "A": "Sistem backup",
+      "B": "Waktu tanggapan",
+      "C": "Perincian tampilan",
+      "D": "Mutu data"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 130
+    }
+  },
+  {
+    "id": "stsi4105-q131",
+    "subjectId": "subject-02",
+    "text": "Pada aplikasi XAMPP setelah instalasi XAMPP, sebelum membuat basis data yang harus dilakukan pertama kali yaitu ….",
+    "options": {
+      "A": "Memasukkan URL http://localhost/phpmyadmin pada browser",
+      "B": "Pilih menu Database",
+      "C": "Membuat Database pada aplikasi XAMPP",
+      "D": "Mengaktifkan Apache dan MySQL pada aplikasi XAMPP"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 131
+    }
+  },
+  {
+    "id": "stsi4105-q132",
+    "subjectId": "subject-02",
+    "text": "Yang TIDAK termasuk perintah-perintah transaksi dalam basis data adalah ….",
+    "options": {
+      "A": "Commit",
+      "B": "Errorpoint",
+      "C": "Trigger",
+      "D": "Checkpoint"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 132
+    }
+  },
+  {
+    "id": "stsi4105-q133",
+    "subjectId": "subject-02",
+    "text": "Yang merupakan sebuah perintah atau event yang dapat memicu perubahan sebuah basis data adalah ….",
+    "options": {
+      "A": "Commit",
+      "B": "Trigger",
+      "C": "Rollback",
+      "D": "Errorpoint"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 22,
+      "originalNumber": 133
+    }
+  },
+  {
+    "id": "stsi4105-q134",
+    "subjectId": "subject-02",
+    "text": "Diketahui IP Address PC1 adalah 192.168.10.11, IP Address PC2 adalah 192.168.10.12, dan IP Address PC3 adalah 192.168.10.13. Jika ingin mengetahui koneksi telah tersambung dari PC1 ke PC2, maka perintah yang ditulis adalah ….",
+    "options": {
+      "A": "ping 192.168.10.11",
+      "B": "ping 192.168.10.12",
+      "C": "ping 192.168.10.13",
+      "D": "ping 192.168.10.14"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 23,
+      "originalNumber": 134
+    }
+  },
+  {
+    "id": "stsi4105-q135",
+    "subjectId": "subject-02",
+    "text": "Dalam konfigurasi basis data terdistribusi dalam hal replikasi basis data, opsi pengaturan akun untuk mengaktifkan penggunaan pernyataan SHOW MASTER STATUS adalah ….",
+    "options": {
+      "A": "Replication slave",
+      "B": "Replication client",
+      "C": "Replication server",
+      "D": "Replication master"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4105 - BASIC DATA.pdf",
+      "page": 23,
+      "originalNumber": 135
+    }
+  }
+]

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="156" viewBox="0 0 194 156" font-family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'>
+  <rect width="194" height="156" fill="#ffffff" rx="8"/>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#1e293b"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <line x1="96" y1="26" x2="48" y2="76" stroke="#64748b" stroke-width="1.6"/><line x1="96" y1="26" x2="144" y2="76" stroke="#64748b" stroke-width="1.6"/><line x1="144" y1="76" x2="144" y2="132" stroke="#64748b" stroke-width="1.6"/>
+      <path d="M 84.9 37.5 Q 62.6 40.6 60.5 63.0"
+            fill="none" stroke="#2563eb" stroke-width="1.7" stroke-dasharray="4 3" marker-end="url(#arrow-blue)"/>
+      <circle cx="62.6" cy="40.6" r="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+      <text x="62.6" y="44.4" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">1</text>
+    
+      <path d="M 144.0 92.0 Q 162.0 103.0 144.0 114.0"
+            fill="none" stroke="#2563eb" stroke-width="1.7" stroke-dasharray="4 3" marker-end="url(#arrow-blue)"/>
+      <circle cx="162.0" cy="103.0" r="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+      <text x="162.0" y="106.8" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">2</text>
+    
+      <path d="M 61.8 84.1 Q 90.1 112.1 128.5 122.9"
+            fill="none" stroke="#2563eb" stroke-width="1.7" stroke-dasharray="4 3" marker-end="url(#arrow-blue)"/>
+      <circle cx="90.1" cy="112.1" r="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+      <text x="90.1" y="115.9" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">3</text>
+    
+      <circle cx="96" cy="26" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="96" y="30.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">A</text>
+    
+      <circle cx="48" cy="76" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="48" y="80.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">C</text>
+    
+      <circle cx="144" cy="76" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="144" y="80.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">B</text>
+    
+      <circle cx="144" cy="132" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="144" y="136.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">D</text>
+    
+</svg>

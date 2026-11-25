@@ -1,0 +1,2044 @@
+[
+  {
+    "id": "stsi4104-q001",
+    "subjectId": "subject-01",
+    "text": "Penjual pada sebuah toko buku sedang menulis nama buku yang banyak dicari pembeli melalui laptop. Berdasarkan contoh kasus tersebut, yang dimaksud dengan data yang sedang diproses adalah ….",
+    "options": {
+      "A": "Penjual",
+      "B": "Nama buku",
+      "C": "Pembeli",
+      "D": "Laptop"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 1,
+      "originalNumber": 1
+    }
+  },
+  {
+    "id": "stsi4104-q002",
+    "subjectId": "subject-01",
+    "text": "Jenis running times untuk membuktikan bahwa ada operasi struktur data yang tidak sesuai target adalah ….",
+    "options": {
+      "A": "Correctness",
+      "B": "Amortized",
+      "C": "Worst-case",
+      "D": "Expected"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 1,
+      "originalNumber": 2
+    }
+  },
+  {
+    "id": "stsi4104-q003",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi coding yang benar untuk tipe data string adalah ….",
+    "options": {
+      "A": "string nama saya = “nama”;",
+      "B": "string nama : “nama saya”;",
+      "C": "String nama = “nama saya”;",
+      "D": "String nama saya : “nama”;"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 1,
+      "originalNumber": 3
+    }
+  },
+  {
+    "id": "stsi4104-q004",
+    "subjectId": "subject-01",
+    "text": "Isi array pada indeks ke-3 sesuai ilustrasi berikut adalah ….\nAustralia — Ceko — Jepang — Canada",
+    "options": {
+      "A": "Australia",
+      "B": "Ceko",
+      "C": "Jepang",
+      "D": "Canada"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 1,
+      "originalNumber": 4
+    }
+  },
+  {
+    "id": "stsi4104-q005",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi rangkaian linked list di atas, maka rangkaian tersebut merupakan linked list ….",
+    "imageUrl": "/images/stsi4104/linked-list-circular.svg",
+    "imageAlt": "Ilustrasi linked list LAX -> MSP -> ATL -> BOS dengan panah kembali ke LAX",
+    "options": {
+      "A": "Singly",
+      "B": "Doubly",
+      "C": "Circularly",
+      "D": "Manually"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 1,
+      "originalNumber": 5
+    }
+  },
+  {
+    "id": "stsi4104-q006",
+    "subjectId": "subject-01",
+    "text": "Silakan Anda perhatikan coding berikut. Kesalahan penulisan tipe data integer yaitu pada baris ke ….",
+    "codeBlock": "1  class tipe{\n2    public static void main(String[] args){\n3      int x = 50;\n4      Int y = 40;\n5      System.out.println(\"Nilai x : \" + x);\n6      System.out.println(\"Nilai y : \" + y);\n7    }\n8  }",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 2,
+      "originalNumber": 6
+    }
+  },
+  {
+    "id": "stsi4104-q007",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi array satu dimensi yang bertipe integer, dengan nama array nomor, adalah ….",
+    "options": {
+      "A": "Int [ ] nomor = new int[2];",
+      "B": "Int [ ] = nomor;",
+      "C": "int [ ] nomor = new int[2];",
+      "D": "int [ ] = nomor;"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 2,
+      "originalNumber": 7
+    }
+  },
+  {
+    "id": "stsi4104-q008",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi linked list dengan nama variabel bola yang benar adalah ….",
+    "options": {
+      "A": "LinkedList bola : new LinkedList();",
+      "B": "LinkedList bola = new LinkedList();",
+      "C": "LinkedList : new bola LinkedList();",
+      "D": "LinkedList = new bola LinkedList();"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 2,
+      "originalNumber": 8
+    }
+  },
+  {
+    "id": "stsi4104-q009",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel proses stack berikut, return value perintah pop() pada baris ke-3 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Stack Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "push(4)",
+          "–",
+          "(4)"
+        ],
+        [
+          "2",
+          "size()",
+          "1",
+          "(4)"
+        ],
+        [
+          "3",
+          "pop()",
+          "…",
+          "()"
+        ],
+        [
+          "4",
+          "push(6)",
+          "–",
+          "(6)"
+        ]
+      ]
+    },
+    "options": {
+      "A": "–",
+      "B": "1",
+      "C": "4",
+      "D": "6"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 2,
+      "originalNumber": 9
+    }
+  },
+  {
+    "id": "stsi4104-q010",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi stack array berikut, jika ingin menambahkan elemen r pada indeks ke-2, maka menggunakan perintah ADT ….",
+    "imageUrl": "/images/stsi4104/stack-array-bred.svg",
+    "imageAlt": "Ilustrasi stack array berisi b, r, e, d pada indeks 0 sampai 3",
+    "options": {
+      "A": "add(2, r)",
+      "B": "add(3, r)",
+      "C": "Add(2, r)",
+      "D": "Add(3, r)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 3,
+      "originalNumber": 10
+    }
+  },
+  {
+    "id": "stsi4104-q011",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi queue berikut, isi dari queue contents baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Queue Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "enqueue(3)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "enqueue(9)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "first()",
+          "3",
+          ""
+        ],
+        [
+          "4",
+          "enqueue(8)",
+          "–",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "3, 9, 8",
+      "B": "3, 8, 9",
+      "C": "3, 8",
+      "D": "3, 9"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 3,
+      "originalNumber": 11
+    }
+  },
+  {
+    "id": "stsi4104-q012",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses queue berikut, elemen 5 berada di indeks ke-0 queue. Jika akan menambahkan elemen 3 berada pada akhir antrian (indeks ke-1), maka perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/queue-5-3.svg",
+    "imageAlt": "Ilustrasi queue dengan elemen 5 pada indeks 0 dan elemen 3 pada indeks 1",
+    "options": {
+      "A": "enqueue(3)",
+      "B": "dequeue(1)",
+      "C": "enqueue(1)",
+      "D": "dequeue(3)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 3,
+      "originalNumber": 12
+    }
+  },
+  {
+    "id": "stsi4104-q013",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi pada dequeue berikut, isi kolom Deque Contents pada baris ke-1 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Deque Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "addLast(5)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "addFirst(3)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "addFirst(7)",
+          "–",
+          ""
+        ],
+        [
+          "4",
+          "first()",
+          "7",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 4,
+      "originalNumber": 13
+    }
+  },
+  {
+    "id": "stsi4104-q014",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses dequeue berikut, jika ingin menambahkan elemen 12 pada indeks ke-1, maka perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/deque-3-5.svg",
+    "imageAlt": "Ilustrasi dequeue dengan elemen 3 pada indeks 2 dan 5 pada indeks 3",
+    "options": {
+      "A": "addFirst()",
+      "B": "addFirst(3)",
+      "C": "addFirst(5)",
+      "D": "addFirst(12)"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 4,
+      "originalNumber": 14
+    }
+  },
+  {
+    "id": "stsi4104-q015",
+    "subjectId": "subject-01",
+    "text": "Algoritma berikut yang termasuk ke dalam non-comparison-based sorting adalah ….",
+    "options": {
+      "A": "Low-sort",
+      "B": "Quick-sort",
+      "C": "Counting-sort",
+      "D": "Heap-sort"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 4,
+      "originalNumber": 15
+    }
+  },
+  {
+    "id": "stsi4104-q016",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan data (8, 4, 78, 5, 2, 10, 6, 2), jika akan dilakukan sorting dengan menggunakan algoritma merge-sort, maka tahap awal yang akan dilakukan untuk mengurutkan data yaitu memproses data tersebut menjadi ….",
+    "options": {
+      "A": "(8, 4, 78, 5) dan (2, 10, 6, 2)",
+      "B": "(4, 78, 5, 2) dan (8, 10, 6, 2)",
+      "C": "(78, 5, 2, 10) dan (6, 2, 8, 4)",
+      "D": "(5, 2, 10, 6) dan (8, 4, 78, 2)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 4,
+      "originalNumber": 16
+    }
+  },
+  {
+    "id": "stsi4104-q017",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan data berikut (3, 2, 5, 3, 1, 0, 4, 4) dengan rentang data yaitu 0 sampai 5. Jika dilakukan sorting dengan menggunakan algoritma counting-sort, maka rangkaian data c yang dihasilkan ….",
+    "options": {
+      "A": "(1, 1, 1, 1, 2, 2, 2)",
+      "B": "(0, 1, 2, 3, 4, 5)",
+      "C": "(0, 1, 2, 3, 3, 4, 4, 5)",
+      "D": "(1, 1, 1, 2, 2, 1)"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 5,
+      "originalNumber": 17
+    }
+  },
+  {
+    "id": "stsi4104-q018",
+    "subjectId": "subject-01",
+    "text": "Berikut adalah coding method sort (baris ke-7) pada algoritma merge sort. Terdapat kesalahan penulisan coding yaitu pada simbol ….",
+    "codeBlock": "1   void sort(int arr[], int l, int r)\n2   {\n3       if (l < r)\n4       {\n5           int m = (l+r)/2;\n6\n7           sort(arr, l, m):\n8           sort(arr , m+1, r);\n9\n10          merge(arr, l, m, r);\n11      }\n12  }",
+    "options": {
+      "A": "(",
+      "B": ":",
+      "C": ",",
+      "D": ")"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 5,
+      "originalNumber": 18
+    }
+  },
+  {
+    "id": "stsi4104-q019",
+    "subjectId": "subject-01",
+    "text": "Berikut merupakan langkah-langkah mengurutkan data dari terkecil ke terbesar dengan menggunakan algoritma counting-sort:\n1) Menghitung banyaknya data yang sama pada rangkaian data awal (rangkaian a).\n2) Menyimpan data hasil langkah ke-1 pada rangkaian c.\n3) Menjumlahkan data yang terdapat pada rangkaian c.\n4) Menyimpan data hasil langkah ke-3 pada rangkaian c’.\n5) Menentukan posisi penyimpanan data pada rangkaian a, berdasarkan data pada rangkaian c’.\n6) Menyimpan data hasil langkah ke-5 pada rangkaian b.\n\nBerdasarkan langkah-langkah di atas, maka perulangan for pada baris ke-9 sampai ke-10, merupakan implementasi dari langkah ke ….",
+    "codeBlock": "1   void sort(char arr[])\n2   {\n3       int n = arr.length;\n4       char output[] = new char[n];\n5       int count[] = new int[256];\n6\n7       ..........\n8\n9       for (int i = 1; i <= 255; ++i)\n10          count[i] += count[i - 1];\n11\n12      ..........\n13  }",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 6,
+      "originalNumber": 19
+    }
+  },
+  {
+    "id": "stsi4104-q020",
+    "subjectId": "subject-01",
+    "text": "Pada sebuah tree, untuk node yang tidak memiliki child disebut dengan ….",
+    "options": {
+      "A": "Leaf",
+      "B": "Root",
+      "C": "Parent",
+      "D": "Child"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 6,
+      "originalNumber": 20
+    }
+  },
+  {
+    "id": "stsi4104-q021",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan representasi binary tree berikut, ekspresi aritmatika yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/tree-q21.svg",
+    "imageAlt": "Binary tree ekspresi aritmatika dengan root *",
+    "options": {
+      "A": "(((6 / 4) + 4) + ((5 * 9) * 5))",
+      "B": "(((4 * 4) / 6) * ((9 / 5) / 5))",
+      "C": "(((4 * 6) + 4) + ((5 + 5) * 9))",
+      "D": "(((4 - 4) / 6) * ((9 * 5) - 5))"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 7,
+      "originalNumber": 21
+    }
+  },
+  {
+    "id": "stsi4104-q022",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ekspresi aritmatikanya, array binary tree yang tepat dari aritmatika (((2 * 6) - 4) + ((7 / 3) / 7)) adalah ….",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/array-tree-a.svg",
+      "B": "/images/stsi4104/array-tree-b.svg",
+      "C": "/images/stsi4104/array-tree-c.svg",
+      "D": "/images/stsi4104/array-tree-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 7,
+      "originalNumber": 22
+    }
+  },
+  {
+    "id": "stsi4104-q023",
+    "subjectId": "subject-01",
+    "text": "Garis yang menghubungkan setiap vertex pada graph disebut dengan ….",
+    "options": {
+      "A": "weight",
+      "B": "path",
+      "C": "Vertex",
+      "D": "edge"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 7,
+      "originalNumber": 23
+    }
+  },
+  {
+    "id": "stsi4104-q024",
+    "subjectId": "subject-01",
+    "text": "Silakan Anda representasikan graph berikut ke dalam edge list structure?",
+    "imageUrl": "/images/stsi4104/edge-list-q24-graph.svg",
+    "imageAlt": "Graph dengan vertex A, B, C, D dan edge v, w, x, y",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/edge-list-q24-a.svg",
+      "B": "/images/stsi4104/edge-list-q24-b.svg",
+      "C": "/images/stsi4104/edge-list-q24-c.svg",
+      "D": "/images/stsi4104/edge-list-q24-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 8,
+      "originalNumber": 24
+    }
+  },
+  {
+    "id": "stsi4104-q025",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph di bawah ini, representasi dalam matriks yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/matrix-q25-graph.svg",
+    "imageAlt": "Directed graph D -> E -> F -> G",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/matrix-q25-a.svg",
+      "B": "/images/stsi4104/matrix-q25-b.svg",
+      "C": "/images/stsi4104/matrix-q25-c.svg",
+      "D": "/images/stsi4104/matrix-q25-d.svg"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 9,
+      "originalNumber": 25
+    }
+  },
+  {
+    "id": "stsi4104-q026",
+    "subjectId": "subject-01",
+    "text": "Seorang pegawai sedang mencari data pada komputernya dengan menuliskan nama file yang sedang dicari. Kata nama file pada proses searching dikenal dengan istilah ….",
+    "options": {
+      "A": "Key",
+      "B": "Edge",
+      "C": "Low",
+      "D": "Lock"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 9,
+      "originalNumber": 26
+    }
+  },
+  {
+    "id": "stsi4104-q027",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian dengan menggunakan algoritma depth first search, maka tahapan menelusuri node pada graph yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/dfs-pqrst-graph.svg",
+    "imageAlt": "Graph dengan node P, R, Q, S, T",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/dfs-pqrst-a.svg",
+      "B": "/images/stsi4104/dfs-pqrst-b.svg",
+      "C": "/images/stsi4104/dfs-pqrst-c.svg",
+      "D": "/images/stsi4104/dfs-pqrst-d.svg"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 10,
+      "originalNumber": 27
+    }
+  },
+  {
+    "id": "stsi4104-q028",
+    "subjectId": "subject-01",
+    "text": "Apakah output dari potongan main program pada coding DFS berikut?",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(9);\n    g.addEdge(5, 6);\n    g.addEdge(5, 7);\n    g.addEdge(6, 7);\n    g.addEdge(7, 5);\n    g.addEdge(7, 8);\n    g.addEdge(8, 8);\n    System.out.println(\"DFS dengan vertex awal 7\");\n    g.DFS(7);\n}",
+    "options": {
+      "A": "7 5 8 6",
+      "B": "7 6 8 5",
+      "C": "7 5 6 8",
+      "D": "7 6 5 8"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 11,
+      "originalNumber": 28
+    }
+  },
+  {
+    "id": "stsi4104-q029",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian dengan algoritma breadth first search, maka langkah penelusuran pada graph berikut adalah ….",
+    "imageUrl": "/images/stsi4104/bfs-kmln-graph.svg",
+    "imageAlt": "Graph dengan node K, M, L, N",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/bfs-kmln-a.svg",
+      "B": "/images/stsi4104/bfs-kmln-b.svg",
+      "C": "/images/stsi4104/bfs-kmln-c.svg",
+      "D": "/images/stsi4104/bfs-kmln-d.svg"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 12,
+      "originalNumber": 29
+    }
+  },
+  {
+    "id": "stsi4104-q030",
+    "subjectId": "subject-01",
+    "text": "Apakah output dari potongan main program pada coding BFS berikut?",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(6);\n    g.addEdge(2, 3);\n    g.addEdge(2, 4);\n    g.addEdge(3, 4);\n    g.addEdge(4, 2);\n    g.addEdge(4, 5);\n    g.addEdge(5, 5);\n    System.out.println(\"BFS dengan vertex awal 4\");\n    g.BFS(4);\n}",
+    "options": {
+      "A": "4 3 2 5",
+      "B": "4 5 3 2",
+      "C": "4 2 5 3",
+      "D": "4 3 5 2"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 13,
+      "originalNumber": 30
+    }
+  },
+  {
+    "id": "stsi4104-q031",
+    "subjectId": "subject-01",
+    "text": "Seorang pegawai kecamatan sedang memasukkan nama penduduk yang berada di kecamatan tersebut dengan menggunakan seperangkat komputer. Berdasarkan contoh kasus tersebut, data yang sedang diproses adalah ….",
+    "options": {
+      "A": "Pegawai",
+      "B": "Kecamatan",
+      "C": "Memasukkan",
+      "D": "Nama penduduk"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 13,
+      "originalNumber": 31
+    }
+  },
+  {
+    "id": "stsi4104-q032",
+    "subjectId": "subject-01",
+    "text": "Pada kompleksitas komputasi, adanya struktur data seharusnya proses komputasi menggunakan memori sekecil mungkin, yang dikenal dengan istilah …. complexity.",
+    "options": {
+      "A": "Space",
+      "B": "Running",
+      "C": "Time",
+      "D": "Correctness"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 13,
+      "originalNumber": 32
+    }
+  },
+  {
+    "id": "stsi4104-q033",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi coding yang benar untuk tipe data string adalah ….",
+    "options": {
+      "A": "string nama saya = “nama”;",
+      "B": "string nama : “nama saya”;",
+      "C": "String nama = “nama saya”;",
+      "D": "String nama saya : “nama”;"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 13,
+      "originalNumber": 33
+    }
+  },
+  {
+    "id": "stsi4104-q034",
+    "subjectId": "subject-01",
+    "text": "Ilustrasi berikut merupakan rangkaian array berdimensi ….",
+    "table": {
+      "headers": [],
+      "rows": [
+        [
+          "e00",
+          "e01",
+          "e02",
+          "e03",
+          "e04"
+        ],
+        [
+          "e10",
+          "e11",
+          "e12",
+          "e13",
+          "e14"
+        ],
+        [
+          "e20",
+          "e21",
+          "e22",
+          "e23",
+          "e24"
+        ],
+        [
+          "e30",
+          "e31",
+          "e32",
+          "e33",
+          "e34"
+        ]
+      ]
+    },
+    "options": {
+      "A": "Satu",
+      "B": "Dua",
+      "C": "Tiga",
+      "D": "Empat"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 14,
+      "originalNumber": 34
+    }
+  },
+  {
+    "id": "stsi4104-q035",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi rangkaian linked list di atas, maka rangkaian tersebut merupakan linked list ….",
+    "imageUrl": "/images/stsi4104/linked-list-circular.svg",
+    "imageAlt": "Ilustrasi linked list LAX -> MSP -> ATL -> BOS dengan panah kembali ke LAX",
+    "options": {
+      "A": "Singly",
+      "B": "Doubly",
+      "C": "Circularly",
+      "D": "Manually"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 14,
+      "originalNumber": 35
+    }
+  },
+  {
+    "id": "stsi4104-q036",
+    "subjectId": "subject-01",
+    "text": "Silakan Anda perhatikan coding berikut. Kesalahan penulisan tipe data integer yaitu pada baris ke ….",
+    "codeBlock": "1  class tipe{\n2    public static void main(String[] args){\n3      int x = 50;\n4      Int y = 40;\n5      System.out.println(\"Nilai x : \" + x);\n6      System.out.println(\"Nilai y : \" + y);\n7    }\n8  }",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 14,
+      "originalNumber": 36
+    }
+  },
+  {
+    "id": "stsi4104-q037",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi array satu dimensi yang bertipe integer, dengan nama array nomor, adalah ….",
+    "options": {
+      "A": "Int [ ] nomor = new int[2];",
+      "B": "Int [ ] = nomor;",
+      "C": "int [ ] nomor = new int[2];",
+      "D": "int [ ] = nomor;"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 14,
+      "originalNumber": 37
+    }
+  },
+  {
+    "id": "stsi4104-q038",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi linked list dengan nama variabel bola yang benar adalah ….",
+    "options": {
+      "A": "LinkedList bola : new LinkedList();",
+      "B": "LinkedList bola = new LinkedList();",
+      "C": "LinkedList : new bola LinkedList();",
+      "D": "LinkedList = new bola LinkedList();"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 14,
+      "originalNumber": 38
+    }
+  },
+  {
+    "id": "stsi4104-q039",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi stack berikut, isi stack contents pada baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Stack Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "push(7)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "push(9)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "top()",
+          "9",
+          ""
+        ],
+        [
+          "4",
+          "push(4)",
+          "–",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "(4)",
+      "B": "(7, 9)",
+      "C": "(7, 9, 4)",
+      "D": "(4, 7, 9)"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 15,
+      "originalNumber": 39
+    }
+  },
+  {
+    "id": "stsi4104-q040",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi stack array di atas, jika ingin menghapus elemen “r”, maka perintah ADT yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/stack-array-bred.svg",
+    "imageAlt": "Ilustrasi stack array berisi b, r, e, d",
+    "options": {
+      "A": "remove(1)",
+      "B": "removes(1)",
+      "C": "Removes(1)",
+      "D": "move(1)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 15,
+      "originalNumber": 40
+    }
+  },
+  {
+    "id": "stsi4104-q041",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi queue berikut, isi dari queue contents baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Queue Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "enqueue(3)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "enqueue(9)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "first()",
+          "3",
+          ""
+        ],
+        [
+          "4",
+          "enqueue(8)",
+          "–",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "3, 9, 8",
+      "B": "3, 8, 9",
+      "C": "3, 8",
+      "D": "3, 9"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 15,
+      "originalNumber": 41
+    }
+  },
+  {
+    "id": "stsi4104-q042",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses queue berikut, elemen 7 berada di indeks ke-0 queue dan elemen 9 berada di indeks ke-1. Jika ingin menghapus elemen awal queue, maka perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/queue-7-9.svg",
+    "imageAlt": "Ilustrasi queue dengan elemen 7 di indeks 0 dan elemen 9 di indeks 1",
+    "options": {
+      "A": "enqueue()",
+      "B": "enqueue(7)",
+      "C": "dequeue()",
+      "D": "dequeue(7)"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 16,
+      "originalNumber": 42
+    }
+  },
+  {
+    "id": "stsi4104-q043",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel proses deque berikut, elemen yang terdapat pada kolom Deque Contents baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Deque Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "addFirst(6)",
+          "–",
+          "(6)"
+        ],
+        [
+          "2",
+          "last()",
+          "6",
+          "(6)"
+        ],
+        [
+          "3",
+          "addFirst(8)",
+          "–",
+          "(8, 6)"
+        ],
+        [
+          "4",
+          "isEmpty()",
+          "False",
+          "(…..)"
+        ],
+        [
+          "5",
+          "last()",
+          "6",
+          "(8, 6)"
+        ]
+      ]
+    },
+    "options": {
+      "A": "(8, 6)",
+      "B": "(8)",
+      "C": "(6)",
+      "D": "( )"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 16,
+      "originalNumber": 43
+    }
+  },
+  {
+    "id": "stsi4104-q044",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses dequeue berikut, elemen 7 berada di indeks ke-0 antrian dan elemen 3 berada di indeks ke-1 antrian. Jika ingin menghapus elemen 3, maka perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/deque-7-3.svg",
+    "imageAlt": "Ilustrasi dequeue dengan elemen 7 di indeks 0 dan elemen 3 di indeks 1",
+    "options": {
+      "A": "removeLast():",
+      "B": "removeLast()",
+      "C": "RemoveLast();",
+      "D": "RemoveLast()."
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 17,
+      "originalNumber": 44
+    }
+  },
+  {
+    "id": "stsi4104-q045",
+    "subjectId": "subject-01",
+    "text": "Penyusunan data secara terurut dari nilai terkecil hingga terbesar, disebut dengan ….",
+    "options": {
+      "A": "Ascending",
+      "B": "Descending",
+      "C": "Searching",
+      "D": "Sorting"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 17,
+      "originalNumber": 45
+    }
+  },
+  {
+    "id": "stsi4104-q046",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan data berikut (8, 4, 20, 8, 45, 1, 6, 9), jika akan dilakukan sorting dengan menggunakan algoritma merge-sort, maka tahap awal yang akan dilakukan yaitu memproses data tersebut menjadi ….",
+    "options": {
+      "A": "(20, 8, 45, 1) dan (8, 4, 6, 9)",
+      "B": "(8, 4, 20, 8) dan (45, 1, 6, 9)",
+      "C": "(8, 4, 20, 45) dan (8, 1, 6, 9)",
+      "D": "(1, 6, 9, 8) dan (4, 20, 8, 45)"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 17,
+      "originalNumber": 46
+    }
+  },
+  {
+    "id": "stsi4104-q047",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan rangkaian data a berikut (2, 4, 3, 2, 5, 1, 4, 0), jika akan dilakukan sorting dengan menggunakan algoritma counting-sort, maka berdasarkan proses algoritma counting-sort Morin (2012), rangkaian data c adalah ….",
+    "options": {
+      "A": "(1, 1, 2, 1, 2, 1)",
+      "B": "(0, 1, 2, 2, 3, 4, 4, 5)",
+      "C": "(0, 1, 2, 3, 4, 5)",
+      "D": "(2, 2, 2, 1, 1, 1)"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 17,
+      "originalNumber": 47
+    }
+  },
+  {
+    "id": "stsi4104-q048",
+    "subjectId": "subject-01",
+    "text": "Berikut terdapat coding method sort dengan algoritma merge-sort. Pada baris ke-3 terdapat kesalahan penulisan coding yaitu pada simbol ….",
+    "codeBlock": "1   void sort(int arr[], int l, int r)\n2   {\n3       if (l < r);\n4       {\n5           int m = (l+r)/2;\n6\n7           sort(arr, l, m);\n8           sort(arr , m+1, r);\n9\n10          merge(arr, l, m, r);\n11      }\n12  }",
+    "options": {
+      "A": "(",
+      "B": "<",
+      "C": ")",
+      "D": ";"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 17,
+      "originalNumber": 48
+    }
+  },
+  {
+    "id": "stsi4104-q049",
+    "subjectId": "subject-01",
+    "text": "Berikut terdapat langkah mengurutkan data dari terkecil ke terbesar dengan menggunakan algoritma counting sort.\n1) Menghitung banyaknya data yang sama pada rangkaian data awal (rangkaian a).\n2) Menyimpan data hasil langkah ke-1 pada rangkaian c.\n3) Menjumlahkan data yang terdapat pada rangkaian c.\n4) Menyimpan data hasil langkah ke-3 pada rangkaian c’.\n5) Menentukan posisi penyimpanan data pada rangkaian a, berdasarkan data pada rangkaian c’.\n6) Menyimpan data hasil langkah ke-5 pada rangkaian b.\n\nBerdasarkan langkah algoritma counting sort tersebut, maka perulangan for pada baris ke-9 sampai ke-10, merupakan implementasi pada langkah ke ….",
+    "codeBlock": "1   void sort(char arr[])\n2   {\n3       int n = arr.length;\n4       char output[] = new char[n];\n5       int count[] = new int[256];\n6\n7       ..........\n8\n9       for (int i = 0; i < n; ++i)\n10          arr[i] = output[i];\n11\n12      ..........\n13  }",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 18,
+      "originalNumber": 49
+    }
+  },
+  {
+    "id": "stsi4104-q050",
+    "subjectId": "subject-01",
+    "text": "Pada sebuah tree, untuk node yang tidak memiliki child disebut dengan ….",
+    "options": {
+      "A": "Leaf",
+      "B": "Root",
+      "C": "Parent",
+      "D": "Child"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 18,
+      "originalNumber": 50
+    }
+  },
+  {
+    "id": "stsi4104-q051",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan representasi binary tree berikut, ekspresi aritmatika yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/tree-q51.svg",
+    "imageAlt": "Binary tree ekspresi aritmatika dengan root /",
+    "options": {
+      "A": "(((1 + 7) * 3) / ((6 - 2) + 8))",
+      "B": "(((3 * 1) - 7) + ((6 / 2) / 8))",
+      "C": "(((7 / 1) + 3) - ((2 + 6) * 8))",
+      "D": "(((1 - 7) * 3) * ((2 * 6) - 8))"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 19,
+      "originalNumber": 51
+    }
+  },
+  {
+    "id": "stsi4104-q052",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ekspresi aritmatikanya, array binary tree yang tepat dari aritmatika (((2 * 6) - 4) + ((7 / 3) / 7)) adalah …",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/array-tree-a.svg",
+      "B": "/images/stsi4104/array-tree-b.svg",
+      "C": "/images/stsi4104/array-tree-c.svg",
+      "D": "/images/stsi4104/array-tree-d.svg"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 19,
+      "originalNumber": 52
+    }
+  },
+  {
+    "id": "stsi4104-q053",
+    "subjectId": "subject-01",
+    "text": "Garis yang menghubungkan setiap vertex pada graph disebut dengan ….",
+    "options": {
+      "A": "Weight",
+      "B": "Path",
+      "C": "Vertex",
+      "D": "Edge"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 19,
+      "originalNumber": 53
+    }
+  },
+  {
+    "id": "stsi4104-q054",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph di bawah ini, representasi dalam edge list structure yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/edge-list-q54-graph.svg",
+    "imageAlt": "Graph dengan vertex A, B, C, D dan edge x, y, z",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/edge-list-q54-a.svg",
+      "B": "/images/stsi4104/edge-list-q54-b.svg",
+      "C": "/images/stsi4104/edge-list-q54-c.svg",
+      "D": "/images/stsi4104/edge-list-q54-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 20,
+      "originalNumber": 54
+    }
+  },
+  {
+    "id": "stsi4104-q055",
+    "subjectId": "subject-01",
+    "text": "Representasi directed graph berikut dalam tabel yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/digraph-q55-graph.svg",
+    "imageAlt": "Directed graph D -> E -> G -> F",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/digraph-q55-a.svg",
+      "B": "/images/stsi4104/digraph-q55-b.svg",
+      "C": "/images/stsi4104/digraph-q55-c.svg",
+      "D": "/images/stsi4104/digraph-q55-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 21,
+      "originalNumber": 55
+    }
+  },
+  {
+    "id": "stsi4104-q056",
+    "subjectId": "subject-01",
+    "text": "Seorang pegawai sedang mencari data pada komputernya dengan menuliskan nama file yang sedang dicari. Kata nama file pada proses searching dikenal dengan istilah ….",
+    "options": {
+      "A": "Key",
+      "B": "Edge",
+      "C": "Low",
+      "D": "Lock"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 21,
+      "originalNumber": 56
+    }
+  },
+  {
+    "id": "stsi4104-q057",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian menggunakan algoritma depth first search, maka langkah penelusuran yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/dfs-acbd-graph.svg",
+    "imageAlt": "Graph dengan node A, C, B, D",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/dfs-acbd-a.svg",
+      "B": "/images/stsi4104/dfs-acbd-b.svg",
+      "C": "/images/stsi4104/dfs-acbd-c.svg",
+      "D": "/images/stsi4104/dfs-acbd-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 22,
+      "originalNumber": 57
+    }
+  },
+  {
+    "id": "stsi4104-q058",
+    "subjectId": "subject-01",
+    "text": "Output dari potongan pada coding DFS berikut adalah ….",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(8);\n    g.addEdge(4, 5);\n    g.addEdge(4, 6);\n    g.addEdge(5, 6);\n    g.addEdge(6, 4);\n    g.addEdge(6, 7);\n    g.addEdge(7, 7);\n    g.DFS(6);\n}",
+    "options": {
+      "A": "6 5 7 4",
+      "B": "6 7 4 5",
+      "C": "6 5 4 7",
+      "D": "6 4 5 7"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 23,
+      "originalNumber": 58
+    }
+  },
+  {
+    "id": "stsi4104-q059",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian dengan algoritma breadth first search, maka langkah penelusuran pada graph berikut adalah ….",
+    "imageUrl": "/images/stsi4104/bfs-kmln-graph.svg",
+    "imageAlt": "Graph dengan node K, M, L, N",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/bfs-kmln-a.svg",
+      "B": "/images/stsi4104/bfs-kmln-b.svg",
+      "C": "/images/stsi4104/bfs-kmln-c.svg",
+      "D": "/images/stsi4104/bfs-kmln-d.svg"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 24,
+      "originalNumber": 59
+    }
+  },
+  {
+    "id": "stsi4104-q060",
+    "subjectId": "subject-01",
+    "text": "Output dari potongan pada coding BFS berikut adalah ….",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(4);\n    g.addEdge(1, 0);\n    g.addEdge(1, 3);\n    g.addEdge(0, 3);\n    g.addEdge(3, 1);\n    g.addEdge(3, 2);\n    g.addEdge(2, 2);\n    g.BFS(3);\n}",
+    "options": {
+      "A": "3 2 0 1",
+      "B": "3 1 2 0",
+      "C": "3 0 2 1",
+      "D": "3 2 1 0"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 25,
+      "originalNumber": 60
+    }
+  },
+  {
+    "id": "stsi4104-q061",
+    "subjectId": "subject-01",
+    "text": "Penjual pada sebuah toko buku sedang menulis nama buku yang banyak dicari pembeli melalui laptop. Berdasarkan contoh kasus tersebut, yang dimaksud dengan data yang sedang diproses adalah ….",
+    "options": {
+      "A": "Penjual",
+      "B": "Nama buku",
+      "C": "Pembeli",
+      "D": "Laptop"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 25,
+      "originalNumber": 61
+    }
+  },
+  {
+    "id": "stsi4104-q062",
+    "subjectId": "subject-01",
+    "text": "Jenis running times untuk membuktikan bahwa ada operasi struktur data yang tidak sesuai target adalah ….",
+    "options": {
+      "A": "Correctness",
+      "B": "Amortized",
+      "C": "Worst-case",
+      "D": "Expected"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 25,
+      "originalNumber": 62
+    }
+  },
+  {
+    "id": "stsi4104-q063",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi nilai bertipe data null yang benar adalah ….",
+    "options": {
+      "A": "Integer nilai = null",
+      "B": "Int nilai : null;",
+      "C": "string huruf : null",
+      "D": "String nilai = null"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 25,
+      "originalNumber": 63
+    }
+  },
+  {
+    "id": "stsi4104-q064",
+    "subjectId": "subject-01",
+    "text": "Ilustrasi berikut merupakan rangkaian array berdimensi ….\n{e0  e1  e2  e3  e4}",
+    "options": {
+      "A": "Satu",
+      "B": "Dua",
+      "C": "Tiga",
+      "D": "Empat"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 25,
+      "originalNumber": 64
+    }
+  },
+  {
+    "id": "stsi4104-q065",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi rangkaian linked list berikut, yang dimaksud dengan node head adalah ….",
+    "imageUrl": "/images/stsi4104/linked-list-singly.svg",
+    "imageAlt": "Ilustrasi singly linked list LAX -> MSP -> ATL -> BOS -> null",
+    "options": {
+      "A": "LAX",
+      "B": "MSP",
+      "C": "ATL",
+      "D": "BOS"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 26,
+      "originalNumber": 65
+    }
+  },
+  {
+    "id": "stsi4104-q066",
+    "subjectId": "subject-01",
+    "text": "Silakan Anda perhatikan coding berikut. Kesalahan penulisan tipe data integer yaitu pada baris ke ….",
+    "codeBlock": "1  class tipe{\n2    public static void main(String[] args){\n3      int x = 50;\n4      Int y = 40;\n5      System.out.println(\"Nilai x : \" + x);\n6      System.out.println(\"Nilai y : \" + y);\n7    }\n8  }",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 26,
+      "originalNumber": 66
+    }
+  },
+  {
+    "id": "stsi4104-q067",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi yang benar untuk array satu dimensi yang bertipe integer, dengan nama array “angka” dan dengan jumlah indeks 10 adalah ….",
+    "options": {
+      "A": "int[ ] angka = new int[10];",
+      "B": "Int[ ] angka = new int[10];",
+      "C": "Int[ ] angka : new int[10];",
+      "D": "int[ ] angka : new int[10];"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 26,
+      "originalNumber": 67
+    }
+  },
+  {
+    "id": "stsi4104-q068",
+    "subjectId": "subject-01",
+    "text": "Penulisan deklarasi linked list dengan nama variabel kotak yang benar adalah ….",
+    "options": {
+      "A": "LinkedList kotak : new LinkedList();",
+      "B": "LinkedList : new kotak LinkedList();",
+      "C": "LinkedList kotak = new LinkedList();",
+      "D": "LinkedList = new kotak LinkedList();"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 26,
+      "originalNumber": 68
+    }
+  },
+  {
+    "id": "stsi4104-q069",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi stack berikut, isi Stack Contents pada baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Stack Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "push(6)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "push(7)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "size()",
+          "2",
+          ""
+        ],
+        [
+          "4",
+          "pop()",
+          "7",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "(6)",
+      "B": "(7)",
+      "C": "(6, 7)",
+      "D": "(7, 6)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 27,
+      "originalNumber": 69
+    }
+  },
+  {
+    "id": "stsi4104-q070",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi stack array berikut, jika ingin menambahkan elemen e pada indeks ke-4, maka menggunakan perintah ADT ….",
+    "imageUrl": "/images/stsi4104/stack-array-bred.svg",
+    "imageAlt": "Ilustrasi stack array berisi b, r, e, d pada indeks 0 sampai 3",
+    "options": {
+      "A": "Add(3, e)",
+      "B": "Add(4, e)",
+      "C": "add(3, e)",
+      "D": "add(4, e)"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 27,
+      "originalNumber": 70
+    }
+  },
+  {
+    "id": "stsi4104-q071",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel operasi queue berikut, isi dari queue contents baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Queue Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "enqueue(10)",
+          "–",
+          ""
+        ],
+        [
+          "2",
+          "enqueue(8)",
+          "–",
+          ""
+        ],
+        [
+          "3",
+          "size()",
+          "2",
+          ""
+        ],
+        [
+          "4",
+          "dequeue()",
+          "10",
+          ""
+        ]
+      ]
+    },
+    "options": {
+      "A": "–",
+      "B": "2",
+      "C": "8",
+      "D": "10"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 27,
+      "originalNumber": 71
+    }
+  },
+  {
+    "id": "stsi4104-q072",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses queue berikut, jika ingin menambahkan elemen 10 pada indeks ke-1, perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/queue-5.svg",
+    "imageAlt": "Ilustrasi queue dengan elemen 5 pada indeks 0",
+    "options": {
+      "A": "Enqueue(1)",
+      "B": "Enqueue(10)",
+      "C": "enqueue(1)",
+      "D": "enqueue(10)"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 28,
+      "originalNumber": 72
+    }
+  },
+  {
+    "id": "stsi4104-q073",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan tabel proses deque berikut, elemen yang terdapat pada kolom Deque Contents baris ke-4 adalah ….",
+    "table": {
+      "headers": [
+        "No.",
+        "Method",
+        "Return Value",
+        "Deque Contents"
+      ],
+      "rows": [
+        [
+          "1",
+          "addFirst(6)",
+          "–",
+          "(6)"
+        ],
+        [
+          "2",
+          "last()",
+          "6",
+          "(6)"
+        ],
+        [
+          "3",
+          "addFirst(8)",
+          "–",
+          "(8, 6)"
+        ],
+        [
+          "4",
+          "isEmpty()",
+          "False",
+          "(…..)"
+        ],
+        [
+          "5",
+          "last()",
+          "6",
+          "(8, 6)"
+        ]
+      ]
+    },
+    "options": {
+      "A": "(8, 6)",
+      "B": "(8)",
+      "C": "(6)",
+      "D": "( )"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 28,
+      "originalNumber": 73
+    }
+  },
+  {
+    "id": "stsi4104-q074",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ilustrasi gambar proses dequeue berikut, elemen 7 berada di indeks ke-0 antrian dan elemen 3 berada di indeks ke-1 antrian. Jika ingin menghapus elemen 3, maka perintah ADT yang diberikan adalah ….",
+    "imageUrl": "/images/stsi4104/deque-3-5.svg",
+    "imageAlt": "Ilustrasi proses dequeue sesuai halaman 28 PDF",
+    "options": {
+      "A": "removeLast():",
+      "B": "removeLast()",
+      "C": "RemoveLast();",
+      "D": "RemoveLast()."
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 28,
+      "originalNumber": 74
+    }
+  },
+  {
+    "id": "stsi4104-q075",
+    "subjectId": "subject-01",
+    "text": "Algoritma berikut yang termasuk ke dalam non-comparison-based sorting adalah ….",
+    "options": {
+      "A": "Low-sort",
+      "B": "Quick-sort",
+      "C": "Counting-sort",
+      "D": "Heap-sort"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 29,
+      "originalNumber": 75
+    }
+  },
+  {
+    "id": "stsi4104-q076",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan data (8, 4, 78, 5, 2, 10, 6, 2), jika akan dilakukan sorting dengan menggunakan algoritma merge-sort, maka tahap awal yang akan dilakukan untuk mengurutkan data yaitu memproses data tersebut menjadi ….",
+    "options": {
+      "A": "(8, 4, 78, 5) dan (2, 10, 6, 2)",
+      "B": "(4, 78, 5, 2) dan (8, 10, 6, 2)",
+      "C": "(78, 5, 2, 10) dan (6, 2, 8, 4)",
+      "D": "(5, 2, 10, 6) dan (8, 4, 78, 2)"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 29,
+      "originalNumber": 76
+    }
+  },
+  {
+    "id": "stsi4104-q077",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan data berikut (5, 3, 2, 4, 1, 3, 0, 4) dengan rentang data yaitu 0 sampai 5. Jika dilakukan sorting dengan menggunakan algoritma counting-sort, maka rangkaian data c yang dihasilkan ….",
+    "options": {
+      "A": "(0, 1, 2, 3, 4, 5)",
+      "B": "(1, 1, 1, 2, 2, 1)",
+      "C": "(0, 1, 2, 3, 3, 4, 4, 5)",
+      "D": "(1, 1, 1, 2, 2, 2)"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 29,
+      "originalNumber": 77
+    }
+  },
+  {
+    "id": "stsi4104-q078",
+    "subjectId": "subject-01",
+    "text": "Berikut adalah coding method sort (baris ke-7) pada algoritma merge sort. Terdapat kesalahan penulisan coding yaitu pada simbol ….",
+    "codeBlock": "1   void sort(int arr[], int l, int r)\n2   {\n3       if (l < r)\n4       {\n5           int m = (l+r)/2;\n6\n7           sort(arr, l, m):\n8           sort(arr , m+1, r);\n9\n10          merge(arr, l, m, r);\n11      }\n12  }",
+    "options": {
+      "A": "(",
+      "B": ":",
+      "C": ",",
+      "D": ")"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 29,
+      "originalNumber": 78
+    }
+  },
+  {
+    "id": "stsi4104-q079",
+    "subjectId": "subject-01",
+    "text": "Berikut terdapat langkah mengurutkan data dari terkecil ke terbesar dengan menggunakan algoritma counting sort.\n1) Menghitung banyaknya data yang sama pada rangkaian data awal (rangkaian a).\n2) Menyimpan data hasil langkah ke-1 pada rangkaian c.\n3) Menjumlahkan data yang terdapat pada rangkaian c.\n4) Menyimpan data hasil langkah ke-3 pada rangkaian c’.\n5) Menentukan posisi penyimpanan data pada rangkaian a, berdasarkan data pada rangkaian c’.\n6) Menyimpan data hasil langkah ke-5 pada rangkaian b.\n\nBerdasarkan langkah algoritma counting sort tersebut, maka perulangan for pada baris ke-9 sampai ke-10, merupakan implementasi pada langkah ke ….",
+    "codeBlock": "1   void sort(char arr[])\n2   {\n3       int n = arr.length;\n4       char output[] = new char[n];\n5       int count[] = new int[256];\n6\n7       ..........\n8\n9       for (int i = 0; i < n; ++i)\n10          arr[i] = output[i];\n11\n12      ..........\n13  }",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 30,
+      "originalNumber": 79
+    }
+  },
+  {
+    "id": "stsi4104-q080",
+    "subjectId": "subject-01",
+    "text": "Pada sebuah tree, untuk node yang tidak memiliki child disebut dengan ….",
+    "options": {
+      "A": "Leaf",
+      "B": "Root",
+      "C": "Parent",
+      "D": "Child"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 30,
+      "originalNumber": 80
+    }
+  },
+  {
+    "id": "stsi4104-q081",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan representasi binary tree berikut, ekspresi aritmatika yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/tree-q81.svg",
+    "imageAlt": "Binary tree ekspresi aritmatika dengan root -",
+    "options": {
+      "A": "(((5 - 3) / 5) * ((6 * 4) - 8))",
+      "B": "(((3 / 5) + 5) - ((8 + 4) * 6))",
+      "C": "(((5 / 5) + 3) + ((4 * 8) * 6))",
+      "D": "(((3 * 5) / 5) * ((4 / 6) / 8))"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 31,
+      "originalNumber": 81
+    }
+  },
+  {
+    "id": "stsi4104-q082",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan ekspresi aritmatikanya, array binary tree yang tepat dari aritmatika (((2 * 6) - 4) + ((7 / 3) / 7)) adalah ….",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/array-tree-a.svg",
+      "B": "/images/stsi4104/array-tree-b.svg",
+      "C": "/images/stsi4104/array-tree-c.svg",
+      "D": "/images/stsi4104/array-tree-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 31,
+      "originalNumber": 82
+    }
+  },
+  {
+    "id": "stsi4104-q083",
+    "subjectId": "subject-01",
+    "text": "Dua buah vertex yang berdekatan dan memiliki edge antar keduanya disebut dengan ….",
+    "options": {
+      "A": "Edge",
+      "B": "Vertex",
+      "C": "Adjacent",
+      "D": "Path"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 31,
+      "originalNumber": 83
+    }
+  },
+  {
+    "id": "stsi4104-q084",
+    "subjectId": "subject-01",
+    "text": "Silakan Anda representasikan graph berikut ke dalam edge list structure?",
+    "imageUrl": "/images/stsi4104/edge-list-q24-graph.svg",
+    "imageAlt": "Graph dengan vertex A, B, C, D dan edge v, w, x, y",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/edge-list-q24-a.svg",
+      "B": "/images/stsi4104/edge-list-q24-b.svg",
+      "C": "/images/stsi4104/edge-list-q24-c.svg",
+      "D": "/images/stsi4104/edge-list-q24-d.svg"
+    },
+    "correctAnswer": "A",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 32,
+      "originalNumber": 84
+    }
+  },
+  {
+    "id": "stsi4104-q085",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph di bawah ini, representasi dalam matriks yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/matrix-q25-graph.svg",
+    "imageAlt": "Directed graph D -> E -> F -> G",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/matrix-q25-a.svg",
+      "B": "/images/stsi4104/matrix-q25-b.svg",
+      "C": "/images/stsi4104/matrix-q25-c.svg",
+      "D": "/images/stsi4104/matrix-q25-d.svg"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 33,
+      "originalNumber": 85
+    }
+  },
+  {
+    "id": "stsi4104-q086",
+    "subjectId": "subject-01",
+    "text": "Peserta pelatihan menulis dapat melakukan pencarian pada halaman website pelatihan dengan cara memasukkan kata atau kalimat pada kolom yang disediakan. Kata atau kalimat tersebut pada proses searching dikenal dengan istilah ….",
+    "options": {
+      "A": "Edge",
+      "B": "Path",
+      "C": "Kata kunci",
+      "D": "Rule"
+    },
+    "correctAnswer": "C",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 33,
+      "originalNumber": 86
+    }
+  },
+  {
+    "id": "stsi4104-q087",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian menggunakan algoritma depth first search, maka langkah penelusuran yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/dfs-jmkln-graph.svg",
+    "imageAlt": "Graph dengan node J, M, K, L, N",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/dfs-jmkln-a.svg",
+      "B": "/images/stsi4104/dfs-jmkln-b.svg",
+      "C": "/images/stsi4104/dfs-jmkln-c.svg",
+      "D": "/images/stsi4104/dfs-jmkln-d.svg"
+    },
+    "correctAnswer": null,
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 34,
+      "originalNumber": 87
+    },
+    "needsVerification": true,
+    "verificationNote": "Pada halaman 34 PDF hanya terdapat tanda centang (✓) tanpa teks huruf jawaban di dekat bagian bawah Pilihan D — ditandai untuk verifikasi manual agar tidak menebak."
+  },
+  {
+    "id": "stsi4104-q088",
+    "subjectId": "subject-01",
+    "text": "Output dari potongan pada coding DFS berikut adalah ….",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(8);\n    g.addEdge(4, 5);\n    g.addEdge(4, 6);\n    g.addEdge(5, 6);\n    g.addEdge(6, 4);\n    g.addEdge(6, 7);\n    g.addEdge(7, 7);\n    g.DFS(6);\n}",
+    "options": {
+      "A": "6 5 7 4",
+      "B": "6 7 4 5",
+      "C": "6 5 4 7",
+      "D": "6 4 5 7"
+    },
+    "correctAnswer": "D",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 35,
+      "originalNumber": 88
+    }
+  },
+  {
+    "id": "stsi4104-q089",
+    "subjectId": "subject-01",
+    "text": "Berdasarkan graph berikut, jika dilakukan pencarian dengan algoritma breadth first search, maka langkah penelusuran yang tepat adalah ….",
+    "imageUrl": "/images/stsi4104/bfs-fhgji-graph.svg",
+    "imageAlt": "Graph dengan node F, H, G, J, I",
+    "options": {
+      "A": "Pilihan A",
+      "B": "Pilihan B",
+      "C": "Pilihan C",
+      "D": "Pilihan D"
+    },
+    "optionImages": {
+      "A": "/images/stsi4104/bfs-fhgji-a.svg",
+      "B": "/images/stsi4104/bfs-fhgji-b.svg",
+      "C": "/images/stsi4104/bfs-fhgji-c.svg",
+      "D": "/images/stsi4104/bfs-fhgji-d.svg"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 36,
+      "originalNumber": 89
+    }
+  },
+  {
+    "id": "stsi4104-q090",
+    "subjectId": "subject-01",
+    "text": "Output dari potongan pada coding BFS berikut adalah ….",
+    "codeBlock": "public static void main(String args[])\n{\n    Graph g = new Graph(4);\n    g.addEdge(1, 0);\n    g.addEdge(1, 3);\n    g.addEdge(0, 3);\n    g.addEdge(3, 1);\n    g.addEdge(3, 2);\n    g.addEdge(2, 2);\n    g.BFS(3);\n}",
+    "options": {
+      "A": "3 2 0 1",
+      "B": "3 1 2 0",
+      "C": "3 0 2 1",
+      "D": "3 2 1 0"
+    },
+    "correctAnswer": "B",
+    "source": {
+      "fileName": "STSI4104 - STRUKTUR DATA.pdf",
+      "page": 37,
+      "originalNumber": 90
+    }
+  }
+]

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="154" viewBox="0 0 224 154" font-family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'>
+  <rect width="224" height="154" fill="#ffffff" rx="8"/>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#1e293b"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <line x1="96" y1="26" x2="46" y2="74" stroke="#64748b" stroke-width="1.6"/><line x1="96" y1="26" x2="142" y2="74" stroke="#64748b" stroke-width="1.6"/><line x1="142" y1="74" x2="102" y2="128" stroke="#64748b" stroke-width="1.6"/><line x1="142" y1="74" x2="184" y2="128" stroke="#64748b" stroke-width="1.6"/>
+      <circle cx="96" cy="26" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="96" y="30.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">F</text>
+    
+      <circle cx="46" cy="74" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="46" y="78.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">H</text>
+    
+      <circle cx="142" cy="74" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="142" y="78.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">G</text>
+    
+      <circle cx="102" cy="128" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="102" y="132.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">J</text>
+    
+      <circle cx="184" cy="128" r="14" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/>
+      <text x="184" y="132.5" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">I</text>
+    
+</svg>

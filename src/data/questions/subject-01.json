@@ -322,12 +322,13 @@
       "C": "5",
       "D": "7"
     },
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 4,
       "originalNumber": 13
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya D): Pada baris ke-1 baru dijalankan operasi addLast(5), sehingga isi kolom Deque Contents pada baris ke-1 adalah (5). Angka 7 baru masuk pada baris ke-3 lewat addFirst(7)."
   },
   {
     "id": "stsi4104-q014",
@@ -392,12 +393,13 @@
       "C": "(0, 1, 2, 3, 3, 4, 4, 5)",
       "D": "(1, 1, 1, 2, 2, 1)"
     },
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 5,
       "originalNumber": 17
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya C): Pada algoritma counting-sort, rangkaian c menyimpan frekuensi kemunculan tiap nilai 0 s.d. 5 dari data (3, 2, 5, 3, 1, 0, 4, 4) yaitu 0(1), 1(1), 2(1), 3(2), 4(2), 5(1) → (1, 1, 1, 2, 2, 1). Pilihan C adalah hasil akhir data terurut, bukan rangkaian c."
   },
   {
     "id": "stsi4104-q018",
@@ -410,12 +412,13 @@
       "C": ",",
       "D": ")"
     },
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 5,
       "originalNumber": 18
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya D): Pada baris ke-7 tertulis \"sort(arr, l, m):\" menggunakan titik dua (:). Kesalahan penulisan sintaks Java berada pada simbol \":\" yang seharusnya titik koma \";\"."
   },
   {
     "id": "stsi4104-q019",
@@ -504,12 +507,13 @@
       "C": "Vertex",
       "D": "edge"
     },
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 7,
       "originalNumber": 23
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya C): Garis yang menghubungkan dua simpul (vertex) pada graph disebut edge (sisi), sedangkan vertex adalah simpulnya."
   },
   {
     "id": "stsi4104-q024",
@@ -639,12 +643,13 @@
       "C": "/images/stsi4104/bfs-kmln-c.svg",
       "D": "/images/stsi4104/bfs-kmln-d.svg"
     },
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 12,
       "originalNumber": 29
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya D): Algoritma Breadth-First Search (BFS) menelusuri graph per level dari root ke anak-anaknya secara melebar (K → M → L → N), sesuai dengan Pilihan B (konsisten dengan soal #59)."
   },
   {
     "id": "stsi4104-q030",
@@ -1096,12 +1101,13 @@
       "C": "(0, 1, 2, 3, 4, 5)",
       "D": "(2, 2, 2, 1, 1, 1)"
     },
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 17,
       "originalNumber": 47
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya C): Berdasarkan algoritma counting-sort Morin (2012), rangkaian c adalah array frekuensi untuk nilai 0 s.d. 5 dari data a = (2, 4, 3, 2, 5, 1, 4, 0), yakni 0(1), 1(1), 2(2), 3(1), 4(2), 5(1) → (1, 1, 2, 1, 2, 1)."
   },
   {
     "id": "stsi4104-q048",
@@ -1191,12 +1197,13 @@
       "C": "/images/stsi4104/array-tree-c.svg",
       "D": "/images/stsi4104/array-tree-d.svg"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 19,
       "originalNumber": 52
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya B): Dengan pengindeksan array binary tree 0-based (anak kiri = 2i + 1, anak kanan = 2i + 2), root \"+\" berada di indeks 0, \"-\" di 1, \"/\" di 2, \"*\" di 3, \"4\" di 4, \"/\" di 5, \"7\" di 6, \"2\" di 7, \"6\" di 8, \"7\" di 11, dan \"3\" di 12 → Pilihan A (konsisten dengan soal #22 dan #82)."
   },
   {
     "id": "stsi4104-q053",
@@ -1300,12 +1307,13 @@
       "C": "/images/stsi4104/dfs-acbd-c.svg",
       "D": "/images/stsi4104/dfs-acbd-d.svg"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 22,
       "originalNumber": 57
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya A): Depth-First Search (DFS) menelusuri satu cabang sedalam mungkin terlebih dahulu (A → B → D) lalu kembali (backtrack) ke C → Pilihan B. Pilihan A (A → B → C → D) adalah penelusuran melebar (BFS)."
   },
   {
     "id": "stsi4104-q058",
@@ -1785,12 +1793,13 @@
       "C": ",",
       "D": ")"
     },
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 29,
       "originalNumber": 78
-    }
+    },
+    "explanation": "Koreksi kunci PDF (sebelumnya D): Pada baris ke-7 tertulis \"sort(arr, l, m):\" menggunakan titik dua (:). Seharusnya diakhiri titik koma (\";\")."
   },
   {
     "id": "stsi4104-q079",
@@ -1971,14 +1980,13 @@
       "C": "/images/stsi4104/dfs-jmkln-c.svg",
       "D": "/images/stsi4104/dfs-jmkln-d.svg"
     },
-    "correctAnswer": null,
+    "correctAnswer": "D",
     "source": {
       "fileName": "STSI4104 - STRUKTUR DATA.pdf",
       "page": 34,
       "originalNumber": 87
     },
-    "needsVerification": true,
-    "verificationNote": "Pada halaman 34 PDF hanya terdapat tanda centang (✓) tanpa teks huruf jawaban di dekat bagian bawah Pilihan D — ditandai untuk verifikasi manual agar tidak menebak."
+    "explanation": "Terverifikasi: Algoritma Depth-First Search (DFS) menelusuri cabang sedalam mungkin dari root J → K → L → N terlebih dahulu, lalu melakukan backtrack ke M → Pilihan D."
   },
   {
     "id": "stsi4104-q088",

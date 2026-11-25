@@ -21,7 +21,7 @@ const AppContent: React.FC = () => {
   const handleStartMode = (
     subjectId: string,
     mode: PracticeMode,
-    options?: { startQuestionId?: string; forceFresh?: boolean }
+    options?: { startQuestionId?: string; forceFresh?: boolean; shuffle?: boolean }
   ) => {
     const session = startSession(subjectId, mode, options);
     if (!session) return;
@@ -33,7 +33,7 @@ const AppContent: React.FC = () => {
   const handleRestartSubjectFresh = (subjectId: string) => {
     const mode = state.preferences.defaultMode;
     resetSubjectProgress(subjectId);
-    const session = startSession(subjectId, mode, { forceFresh: true });
+    const session = startSession(subjectId, mode, { forceFresh: true, shuffle: true });
     if (!session) return;
     setActiveSessionKey(getSessionKey(subjectId, mode));
     setView('quiz');
@@ -129,7 +129,7 @@ const AppContent: React.FC = () => {
         <ResultsView
           result={activeResult}
           onRetry={(subjectId, mode) =>
-            handleStartMode(subjectId, mode, { forceFresh: true })
+            handleStartMode(subjectId, mode, { forceFresh: true, shuffle: true })
           }
           onBackToDashboard={() => handleNavigate('dashboard')}
         />

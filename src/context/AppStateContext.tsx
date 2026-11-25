@@ -20,11 +20,12 @@ import type {
   SubjectStats,
   UserPreferences,
 } from '../types/exam';
-import { slugifySubjectId } from '../utils/formatters';
+import { shuffleArray, slugifySubjectId } from '../utils/formatters';
 
 interface StartSessionOptions {
   startQuestionId?: string;
   forceFresh?: boolean;
+  shuffle?: boolean;
 }
 
 interface AppStateContextValue {
@@ -151,15 +152,20 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       const existing = state.activeSessions[sessionKey];
 
       if (existing && !options?.forceFresh) {
-        // Reconcile if question bank changed since session began
-        const validIds = questions.map((q) => q.id);
+        // Preserve existing (possibly shuffled) order while reconciling any bank changes
+        const validSet = new Set(questions.map((q) => q.id));
+        const keptIds = existing.questionIds.filter((id) => validSet.has(id));
+        const keptSet = new Set(keptIds);
+        const addedIds = questions.map((q) => q.id).filter((id) => !keptSet.has(id));
+        const reconciledIds = [...keptIds, ...addedIds];
+
         const startIdx = options?.startQuestionId
-          ? Math.max(0, validIds.indexOf(options.startQuestionId))
-          : Math.min(existing.currentIndex, validIds.length - 1);
+          ? Math.max(0, reconciledIds.indexOf(options.startQuestionId))
+          : Math.min(existing.currentIndex, reconciledIds.length - 1);
 
         const resumed: ActiveSession = {
           ...existing,
-          questionIds: validIds,
+          questionIds: reconciledIds,
           currentIndex: startIdx,
           lastUpdatedAt: new Date().toISOString(),
         };
@@ -174,7 +180,8 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         return resumed;
       }
 
-      const questionIds = questions.map((q) => q.id);
+      const rawIds = questions.map((q) => q.id);
+      const questionIds = options?.shuffle ? shuffleArray(rawIds) : rawIds;
       const startIndex = options?.startQuestionId
         ? Math.max(0, questionIds.indexOf(options.startQuestionId))
         : 0;
@@ -445,10 +452,11 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         if (!session) return prev;
 
         const subjectQuestions = getQuestionsBySubject(prev, session.subjectId);
-        const questionIds =
+        const baseIds =
           subjectQuestions.length > 0
             ? subjectQuestions.map((q) => q.id)
             : session.questionIds;
+        const questionIds = shuffleArray(baseIds);
         const now = new Date().toISOString();
 
         const freshSession: ActiveSession = {

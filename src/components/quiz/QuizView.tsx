@@ -636,8 +636,8 @@ export const QuizView: React.FC<QuizViewProps> = ({
       {/* Restart Session Confirmation Modal */}
       <ConfirmModal
         open={showRestartModal}
-        title="Mulai ulang dari soal nomor 1?"
-        description="Semua jawaban yang sudah dipilih dan tanda flag pada sesi ini akan dihapus, timer direset ke 00:00, dan Anda akan memulai kembali dari soal nomor 1."
+        title="Mulai ulang & acak urutan soal?"
+        description="Semua jawaban yang sudah dipilih dan tanda flag pada sesi ini akan dihapus, urutan soal akan diacak kembali, timer direset ke 00:00, dan latihan dimulai dari soal nomor 1."
         confirmLabel="Ya, Mulai Ulang"
         cancelLabel="Batal"
         confirmVariant="danger"

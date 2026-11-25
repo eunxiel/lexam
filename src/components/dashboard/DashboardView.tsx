@@ -314,8 +314,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
       <ConfirmModal
         open={Boolean(restartSubject)}
-        title={`Mulai ulang ${restartSubject?.name ?? ''} dari awal?`}
-        description="Semua jawaban yang sudah dijawab dan sesi yang sedang berjalan untuk mata kuliah ini akan dihapus, lalu latihan dimulai kembali dari soal nomor 1."
+        title={`Mulai ulang ${restartSubject?.name ?? ''} dengan urutan acak?`}
+        description="Semua jawaban yang sudah dijawab dan sesi yang sedang berjalan untuk mata kuliah ini akan dihapus, urutan soal akan diacak kembali, lalu latihan dimulai dari soal nomor 1."
         confirmLabel="Ya, Hapus & Mulai Ulang"
         cancelLabel="Batal"
         confirmVariant="danger"

@@ -10,7 +10,7 @@ import { getSessionKey } from './services/questionRepository';
 import type { ActiveSession, AppView, PracticeMode, SessionResult } from './types/exam';
 
 const AppContent: React.FC = () => {
-  const { isHydrating, startSession } = useAppState();
+  const { state, isHydrating, startSession, resetSubjectProgress } = useAppState();
   const [view, setView] = useState<AppView>('dashboard');
   const [activeSessionKey, setActiveSessionKey] = useState<string | null>(null);
   const [activeResult, setActiveResult] = useState<SessionResult | null>(null);
@@ -24,6 +24,16 @@ const AppContent: React.FC = () => {
     options?: { startQuestionId?: string; forceFresh?: boolean }
   ) => {
     const session = startSession(subjectId, mode, options);
+    if (!session) return;
+    setActiveSessionKey(getSessionKey(subjectId, mode));
+    setView('quiz');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleRestartSubjectFresh = (subjectId: string) => {
+    const mode = state.preferences.defaultMode;
+    resetSubjectProgress(subjectId);
+    const session = startSession(subjectId, mode, { forceFresh: true });
     if (!session) return;
     setActiveSessionKey(getSessionKey(subjectId, mode));
     setView('quiz');
@@ -100,6 +110,7 @@ const AppContent: React.FC = () => {
       {view === 'dashboard' && (
         <DashboardView
           onStartMode={(subjectId, mode) => handleStartMode(subjectId, mode)}
+          onRestartSubjectFresh={handleRestartSubjectFresh}
           onResumeSession={handleResumeSession}
           onReviewResult={handleReviewResult}
           onOpenSettings={handleOpenSettings}

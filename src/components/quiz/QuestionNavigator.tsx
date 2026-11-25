@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag } from 'lucide-react';
+import { Flag, RotateCcw } from 'lucide-react';
 import type { OptionKey, PracticeMode, Question } from '../../types/exam';
 import { cn } from '../../utils/formatters';
 import { Button } from '../ui/Button';
@@ -12,6 +12,7 @@ interface QuestionNavigatorProps {
   mode: PracticeMode;
   onJumpTo: (index: number) => void;
   onFinishClick: () => void;
+  onRestartClick: () => void;
 }
 
 export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
@@ -22,6 +23,7 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
   mode,
   onJumpTo,
   onFinishClick,
+  onRestartClick,
 }) => {
   const answeredCount = questions.filter((q) => Boolean(answers[q.id])).length;
   const unansweredCount = questions.length - answeredCount;
@@ -162,13 +164,26 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
         </span>
       </div>
 
-      <Button
-        variant={mode === 'exam' ? 'primary' : 'secondary'}
-        fullWidth
-        onClick={onFinishClick}
-      >
-        {mode === 'exam' ? 'Submit Exam' : 'Finish Practice'}
-      </Button>
+      <div className="space-y-2">
+        <Button
+          variant={mode === 'exam' ? 'primary' : 'secondary'}
+          fullWidth
+          onClick={onFinishClick}
+        >
+          {mode === 'exam' ? 'Submit Exam' : 'Finish Practice'}
+        </Button>
+
+        <Button
+          variant="ghost"
+          size="sm"
+          fullWidth
+          onClick={onRestartClick}
+          className="text-slate-500 hover:text-rose-600 hover:bg-rose-50/70"
+        >
+          <RotateCcw className="h-3.5 w-3.5" />
+          Restart from Question 1
+        </Button>
+      </div>
     </div>
   );
 };

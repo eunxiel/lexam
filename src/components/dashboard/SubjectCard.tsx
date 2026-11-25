@@ -21,6 +21,7 @@ interface SubjectCardProps {
   activePracticeSession?: ActiveSession;
   activeExamSession?: ActiveSession;
   onStartMode: (subjectId: string, mode: PracticeMode) => void;
+  onRestartSubject: (subjectId: string) => void;
   onRenameSubject: (subjectId: string, newName: string) => void;
   onGoToImport: (subjectId: string) => void;
 }
@@ -31,6 +32,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
   activePracticeSession,
   activeExamSession,
   onStartMode,
+  onRestartSubject,
   onRenameSubject,
   onGoToImport,
 }) => {
@@ -171,34 +173,47 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
 
       {/* Actions */}
       {hasQuestions ? (
-        <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-slate-100">
-          <Button
-            variant="primary"
-            size="md"
-            className="flex-1"
-            onClick={() => onStartMode(subject.id, 'practice')}
-          >
-            {activePracticeSession ? (
-              <>
-                <RotateCcw className="h-3.5 w-3.5" />
-                Resume Practice
-              </>
-            ) : (
-              <>
-                <Play className="h-3.5 w-3.5 fill-current" />
-                Start Practice
-              </>
-            )}
-          </Button>
-          <Button
-            variant="secondary"
-            size="md"
-            className="flex-1"
-            onClick={() => onStartMode(subject.id, 'exam')}
-          >
-            <ClipboardCheck className="h-3.5 w-3.5" />
-            {activeExamSession ? 'Resume Exam' : 'Exam Mode'}
-          </Button>
+        <div className="space-y-2 pt-1 border-t border-slate-100">
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              variant="primary"
+              size="md"
+              className="flex-1"
+              onClick={() => onStartMode(subject.id, 'practice')}
+            >
+              {activePracticeSession ? (
+                <>
+                  <RotateCcw className="h-3.5 w-3.5" />
+                  Resume Practice
+                </>
+              ) : (
+                <>
+                  <Play className="h-3.5 w-3.5 fill-current" />
+                  Start Practice
+                </>
+              )}
+            </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              className="flex-1"
+              onClick={() => onStartMode(subject.id, 'exam')}
+            >
+              <ClipboardCheck className="h-3.5 w-3.5" />
+              {activeExamSession ? 'Resume Exam' : 'Exam Mode'}
+            </Button>
+          </div>
+
+          {(stats.completedQuestions > 0 || activePracticeSession || activeExamSession) && (
+            <button
+              type="button"
+              onClick={() => onRestartSubject(subject.id)}
+              className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-rose-600 transition-colors pt-0.5"
+            >
+              <RotateCcw className="h-3 w-3" />
+              Mulai ulang dari awal (hapus semua jawaban)
+            </button>
+          )}
         </div>
       ) : (
         <div className="flex items-center justify-between gap-3 rounded-lg border border-dashed border-slate-200 bg-slate-50/70 px-3.5 py-2.5">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   ArrowRight,
   BookOpenCheck,
@@ -18,6 +18,7 @@ import { formatDuration, formatReadableDuration, formatShortDate } from '../../u
 import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
+import { ConfirmModal } from '../ui/ConfirmModal';
 import { EmptyState } from '../ui/EmptyState';
 import { ProgressBar } from '../ui/ProgressBar';
 import { MetricCard } from './MetricCard';
@@ -25,6 +26,7 @@ import { SubjectCard } from './SubjectCard';
 
 interface DashboardViewProps {
   onStartMode: (subjectId: string, mode: PracticeMode) => void;
+  onRestartSubjectFresh: (subjectId: string) => void;
   onResumeSession: (session: ActiveSession) => void;
   onReviewResult: (result: SessionResult) => void;
   onOpenSettings: (focusSubjectId?: string) => void;
@@ -32,6 +34,7 @@ interface DashboardViewProps {
 
 export const DashboardView: React.FC<DashboardViewProps> = ({
   onStartMode,
+  onRestartSubjectFresh,
   onResumeSession,
   onReviewResult,
   onOpenSettings,
@@ -46,6 +49,9 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
     discardActiveSession,
     renameSubject,
   } = useAppState();
+
+  const [restartSubjectId, setRestartSubjectId] = useState<string | null>(null);
+  const restartSubject = restartSubjectId ? getSubjectById(restartSubjectId) : undefined;
 
   const recentActiveSession = getMostRecentActiveSession();
   const activeSubject = recentActiveSession
@@ -214,6 +220,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
               activePracticeSession={getActiveSession(subject.id, 'practice')}
               activeExamSession={getActiveSession(subject.id, 'exam')}
               onStartMode={onStartMode}
+              onRestartSubject={(id) => setRestartSubjectId(id)}
               onRenameSubject={(id, newName) => renameSubject(id, { name: newName })}
               onGoToImport={(id) => onOpenSettings(id)}
             />
@@ -304,6 +311,22 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           </Card>
         )}
       </section>
+
+      <ConfirmModal
+        open={Boolean(restartSubject)}
+        title={`Mulai ulang ${restartSubject?.name ?? ''} dari awal?`}
+        description="Semua jawaban yang sudah dijawab dan sesi yang sedang berjalan untuk mata kuliah ini akan dihapus, lalu latihan dimulai kembali dari soal nomor 1."
+        confirmLabel="Ya, Hapus & Mulai Ulang"
+        cancelLabel="Batal"
+        confirmVariant="danger"
+        onCancel={() => setRestartSubjectId(null)}
+        onConfirm={() => {
+          if (restartSubjectId) {
+            onRestartSubjectFresh(restartSubjectId);
+          }
+          setRestartSubjectId(null);
+        }}
+      />
     </div>
   );
 };

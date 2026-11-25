@@ -49,6 +49,10 @@ interface AppStateContextValue {
   setSessionQuestionIndex: (sessionKey: string, index: number) => void;
   updateSessionElapsed: (sessionKey: string, elapsedSeconds: number) => void;
   finishSession: (sessionKey: string, elapsedSecondsOverride?: number) => SessionResult | null;
+  restartSession: (
+    sessionKey: string,
+    options?: { clearSubjectProgress?: boolean }
+  ) => void;
   discardActiveSession: (sessionKey: string) => void;
   renameSubject: (
     subjectId: string,
@@ -434,6 +438,55 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     [state]
   );
 
+  const restartSession = useCallback(
+    (sessionKey: string, options?: { clearSubjectProgress?: boolean }) => {
+      setState((prev) => {
+        const session = prev.activeSessions[sessionKey];
+        if (!session) return prev;
+
+        const subjectQuestions = getQuestionsBySubject(prev, session.subjectId);
+        const questionIds =
+          subjectQuestions.length > 0
+            ? subjectQuestions.map((q) => q.id)
+            : session.questionIds;
+        const now = new Date().toISOString();
+
+        const freshSession: ActiveSession = {
+          id: `session-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+          subjectId: session.subjectId,
+          mode: session.mode,
+          questionIds,
+          currentIndex: 0,
+          answers: {},
+          flaggedIds: [],
+          startedAt: now,
+          elapsedSeconds: 0,
+          lastUpdatedAt: now,
+        };
+
+        let nextQuestionProgress = prev.questionProgress;
+        if (options?.clearSubjectProgress) {
+          nextQuestionProgress = {};
+          for (const [qId, entry] of Object.entries(prev.questionProgress)) {
+            if (entry.subjectId !== session.subjectId) {
+              nextQuestionProgress[qId] = entry;
+            }
+          }
+        }
+
+        return {
+          ...prev,
+          questionProgress: nextQuestionProgress,
+          activeSessions: {
+            ...prev.activeSessions,
+            [sessionKey]: freshSession,
+          },
+        };
+      });
+    },
+    []
+  );
+
   const discardActiveSession = useCallback((sessionKey: string) => {
     setState((prev) => {
       const nextSessions = { ...prev.activeSessions };
@@ -645,6 +698,7 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       setSessionQuestionIndex,
       updateSessionElapsed,
       finishSession,
+      restartSession,
       discardActiveSession,
       renameSubject,
       addSubject,
@@ -673,6 +727,7 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       setSessionQuestionIndex,
       updateSessionElapsed,
       finishSession,
+      restartSession,
       discardActiveSession,
       renameSubject,
       addSubject,

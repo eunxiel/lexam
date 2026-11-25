@@ -9,6 +9,7 @@ import {
   Flag,
   Grid2x2,
   Info,
+  RotateCcw,
   X,
   XCircle,
 } from 'lucide-react';
@@ -45,12 +46,15 @@ export const QuizView: React.FC<QuizViewProps> = ({
     setSessionQuestionIndex,
     updateSessionElapsed,
     finishSession,
+    restartSession,
   } = useAppState();
 
   const session = getActiveSessionByKey(sessionKey);
   const subject = session ? getSubjectById(session.subjectId) : undefined;
   const [elapsedSeconds, setElapsedSeconds] = useState(session?.elapsedSeconds ?? 0);
   const [showSubmitModal, setShowSubmitModal] = useState(false);
+  const [showRestartModal, setShowRestartModal] = useState(false);
+  const [alsoClearSubjectProgress, setAlsoClearSubjectProgress] = useState(true);
   const [showMobileNavigator, setShowMobileNavigator] = useState(false);
   const [imageError, setImageError] = useState(false);
 
@@ -166,10 +170,18 @@ export const QuizView: React.FC<QuizViewProps> = ({
     handleConfirmFinish,
   ]);
 
+  const handleConfirmRestart = useCallback(() => {
+    restartSession(sessionKey, { clearSubjectProgress: alsoClearSubjectProgress });
+    setElapsedSeconds(0);
+    elapsedRef.current = 0;
+    setShowRestartModal(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [restartSession, sessionKey, alsoClearSubjectProgress]);
+
   // Keyboard shortcuts (A-D / 1-4 to select, Left / Right to navigate)
   useEffect(() => {
     if (!session || !currentQuestion || !state.preferences.enableKeyboardShortcuts) return;
-    if (showSubmitModal || showMobileNavigator) return;
+    if (showSubmitModal || showRestartModal || showMobileNavigator) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (
@@ -204,6 +216,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
     currentQuestion,
     state.preferences.enableKeyboardShortcuts,
     showSubmitModal,
+    showRestartModal,
     showMobileNavigator,
     handlePrev,
     handleNext,
@@ -287,6 +300,17 @@ export const QuizView: React.FC<QuizViewProps> = ({
               <span className="tabular-nums">
                 {currentIndex + 1}/{questions.length}
               </span>
+            </Button>
+
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowRestartModal(true)}
+              title="Mulai ulang dari soal nomor 1 dan hapus semua jawaban"
+              className="text-slate-600 hover:text-rose-600 hover:bg-rose-50/70"
+            >
+              <RotateCcw className="h-3.5 w-3.5" />
+              <span className="hidden md:inline">Restart</span>
             </Button>
 
             <Button
@@ -558,6 +582,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 mode={session.mode}
                 onJumpTo={(idx) => setSessionQuestionIndex(sessionKey, idx)}
                 onFinishClick={handleFinishTrigger}
+                onRestartClick={() => setShowRestartModal(true)}
               />
             </Card>
           </aside>
@@ -599,10 +624,43 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 setShowMobileNavigator(false);
                 handleFinishTrigger();
               }}
+              onRestartClick={() => {
+                setShowMobileNavigator(false);
+                setShowRestartModal(true);
+              }}
             />
           </div>
         </div>
       )}
+
+      {/* Restart Session Confirmation Modal */}
+      <ConfirmModal
+        open={showRestartModal}
+        title="Mulai ulang dari soal nomor 1?"
+        description="Semua jawaban yang sudah dipilih dan tanda flag pada sesi ini akan dihapus, timer direset ke 00:00, dan Anda akan memulai kembali dari soal nomor 1."
+        confirmLabel="Ya, Mulai Ulang"
+        cancelLabel="Batal"
+        confirmVariant="danger"
+        onCancel={() => setShowRestartModal(false)}
+        onConfirm={handleConfirmRestart}
+      >
+        <label className="flex items-start gap-2.5 rounded-xl border border-slate-200 bg-slate-50/70 p-3 text-xs text-slate-700 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={alsoClearSubjectProgress}
+            onChange={(e) => setAlsoClearSubjectProgress(e.target.checked)}
+            className="mt-0.5 rounded border-slate-300 text-slate-900 focus:ring-slate-900"
+          />
+          <span>
+            <strong className="font-medium text-slate-900">
+              Hapus juga progres tersimpan mata kuliah ini di Dashboard
+            </strong>
+            <span className="block text-slate-500 mt-0.5">
+              Mengosongkan status jawaban benar/salah mata kuliah ini agar dihitung dari nol.
+            </span>
+          </span>
+        </label>
+      </ConfirmModal>
 
       {/* Submit / Finish Confirmation Modal */}
       <ConfirmModal

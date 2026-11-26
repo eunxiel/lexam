@@ -24,23 +24,25 @@ export const MetricCard: React.FC<MetricCardProps> = ({
   accent = 'neutral',
 }) => {
   return (
-    <Card padding="md" className="flex flex-col justify-between">
-      <div className="flex items-center justify-between gap-2">
-        <span className="text-xs font-medium text-slate-500">{label}</span>
+    <Card padding="none" className="flex flex-col justify-between p-3 sm:p-5 min-w-0">
+      <div className="flex items-center justify-between gap-1.5 sm:gap-2">
+        <span className="text-[11px] sm:text-xs font-medium text-slate-500 truncate">{label}</span>
         <div
           className={cn(
-            'flex h-7 w-7 items-center justify-center rounded-lg',
+            'flex h-6 w-6 sm:h-7 sm:w-7 shrink-0 items-center justify-center rounded-lg',
             ICON_BG[accent]
           )}
         >
           {icon}
         </div>
       </div>
-      <div className="mt-3">
-        <div className="text-2xl font-semibold tracking-tight text-slate-900 tabular-nums">
+      <div className="mt-2 sm:mt-3">
+        <div className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900 tabular-nums">
           {value}
         </div>
-        {sublabel && <p className="mt-0.5 text-xs text-slate-500">{sublabel}</p>}
+        {sublabel && (
+          <p className="mt-0.5 text-[11px] sm:text-xs text-slate-500 truncate">{sublabel}</p>
+        )}
       </div>
     </Card>
   );

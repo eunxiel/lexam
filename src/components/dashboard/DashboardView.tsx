@@ -140,8 +140,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       )}
 
       {/* Overall Metrics */}
-      <section aria-label="Overall learning statistics" className="space-y-4">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <section aria-label="Overall learning statistics" className="space-y-3 sm:space-y-4">
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-4 lg:grid-cols-4">
           <MetricCard
             label="Overall Progress"
             value={`${overallStats.progressPercent}%`}
@@ -180,13 +180,13 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           />
         </div>
 
-        <Card padding="sm" className="px-5 py-3.5">
-          <div className="flex items-center justify-between text-xs mb-2">
-            <span className="font-medium text-slate-600">
+        <Card padding="sm" className="px-3.5 py-3 sm:px-5 sm:py-3.5">
+          <div className="flex items-center justify-between gap-2 text-xs mb-2">
+            <span className="font-medium text-slate-600 truncate">
               Combined Exam Readiness Progress
             </span>
-            <span className="font-semibold text-slate-900 tabular-nums">
-              {overallStats.completedQuestions} / {overallStats.totalQuestions} completed ({overallStats.progressPercent}%)
+            <span className="font-semibold text-slate-900 tabular-nums shrink-0">
+              {overallStats.completedQuestions}/{overallStats.totalQuestions} ({overallStats.progressPercent}%)
             </span>
           </div>
           <ProgressBar
@@ -198,20 +198,20 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       </section>
 
       {/* Subjects Grid */}
-      <section aria-label="Subjects" className="space-y-4">
-        <div className="flex items-center justify-between">
-          <div>
+      <section aria-label="Subjects" className="space-y-3 sm:space-y-4">
+        <div className="flex items-center justify-between gap-2">
+          <div className="min-w-0">
             <h2 className="text-sm font-semibold text-slate-900">Your Subjects</h2>
             <p className="text-xs text-slate-500">
               Click the pencil icon on any card to rename a subject, or start a Practice or Exam session.
             </p>
           </div>
-          <span className="text-xs font-medium text-slate-400 tabular-nums">
+          <span className="text-xs font-medium text-slate-400 tabular-nums shrink-0">
             {state.subjects.length} active
           </span>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-4">
           {state.subjects.map((subject) => (
             <SubjectCard
               key={subject.id}

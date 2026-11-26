@@ -265,8 +265,8 @@ export const QuizView: React.FC<QuizViewProps> = ({
     <div className="min-h-screen flex flex-col bg-[#F8F9FB]">
       {/* Dedicated Distraction-Free Quiz Header */}
       <header className="sticky top-0 z-30 bg-white border-b border-slate-200/85">
-        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
-          <div className="flex items-center gap-3 min-w-0">
+        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-2 sm:gap-3 px-3 sm:px-6">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <Button
               variant="ghost"
               size="sm"
@@ -274,7 +274,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 updateSessionElapsed(sessionKey, elapsedRef.current);
                 onExitToDashboard();
               }}
-              className="px-2 shrink-0"
+              className="px-1.5 sm:px-2 shrink-0"
               title="Save progress and return to dashboard"
             >
               <ArrowLeft className="h-4 w-4" />
@@ -284,26 +284,26 @@ export const QuizView: React.FC<QuizViewProps> = ({
             <div className="h-4 w-px bg-slate-200 hidden sm:block" />
 
             <div className="min-w-0">
-              <div className="flex items-center gap-2">
-                <span className="truncate text-sm font-semibold text-slate-900">
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <span className="truncate text-xs sm:text-sm font-semibold text-slate-900">
                   {subject?.name ?? session.subjectId}
                 </span>
-                <Badge tone={isPractice ? 'neutral' : 'info'} className="shrink-0">
+                <Badge tone={isPractice ? 'neutral' : 'info'} className="hidden sm:inline-flex shrink-0">
                   {isPractice ? 'Practice' : 'Exam'}
                 </Badge>
               </div>
             </div>
           </div>
 
-          <div className="flex items-center gap-2.5 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             <span className="text-xs font-medium text-slate-600 tabular-nums hidden sm:inline">
               Question <strong className="text-slate-900">{currentIndex + 1}</strong> of{' '}
               {questions.length}
             </span>
 
             {state.preferences.showTimer && (
-              <div className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-700 tabular-nums">
-                <Clock className="h-3.5 w-3.5 text-slate-400" />
+              <div className="inline-flex items-center gap-1 sm:gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-medium text-slate-700 tabular-nums">
+                <Clock className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-slate-400" />
                 {formatDuration(elapsedSeconds)}
               </div>
             )}
@@ -311,12 +311,12 @@ export const QuizView: React.FC<QuizViewProps> = ({
             <Button
               variant="secondary"
               size="sm"
-              className="lg:hidden"
+              className="lg:hidden px-2"
               onClick={() => setShowMobileNavigator(true)}
               aria-label="Open question navigator"
             >
               <Grid2x2 className="h-3.5 w-3.5" />
-              <span className="tabular-nums">
+              <span className="tabular-nums text-[11px] sm:text-xs">
                 {currentIndex + 1}/{questions.length}
               </span>
             </Button>
@@ -331,11 +331,12 @@ export const QuizView: React.FC<QuizViewProps> = ({
                   ? 'Soal sudah dalam urutan asli'
                   : 'Urutkan soal kembali sesuai urutan asli tanpa menghapus jawaban'
               }
-              className={
+              className={cn(
+                'px-2 md:px-3',
                 isQuestionOrderSorted
                   ? 'text-slate-400'
                   : 'text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50/70'
-              }
+              )}
             >
               <ListOrdered className="h-3.5 w-3.5" />
               <span className="hidden md:inline">
@@ -348,7 +349,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
               size="sm"
               onClick={() => setShowRestartModal(true)}
               title="Mulai ulang dari soal nomor 1 dan hapus semua jawaban"
-              className="text-slate-600 hover:text-rose-600 hover:bg-rose-50/70"
+              className="px-2 md:px-3 text-slate-600 hover:text-rose-600 hover:bg-rose-50/70"
             >
               <RotateCcw className="h-3.5 w-3.5" />
               <span className="hidden md:inline">Restart</span>
@@ -357,9 +358,17 @@ export const QuizView: React.FC<QuizViewProps> = ({
             <Button
               variant={isPractice ? 'secondary' : 'primary'}
               size="sm"
+              className="px-2.5 sm:px-3"
               onClick={handleFinishTrigger}
             >
-              {isPractice ? 'Finish' : 'Submit Exam'}
+              {isPractice ? (
+                'Finish'
+              ) : (
+                <>
+                  <span className="sm:hidden">Submit</span>
+                  <span className="hidden sm:inline">Submit Exam</span>
+                </>
+              )}
             </Button>
           </div>
         </div>

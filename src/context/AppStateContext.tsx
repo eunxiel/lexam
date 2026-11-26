@@ -54,6 +54,7 @@ interface AppStateContextValue {
     sessionKey: string,
     options?: { clearSubjectProgress?: boolean }
   ) => void;
+  sortSessionQuestions: (sessionKey: string) => void;
   discardActiveSession: (sessionKey: string) => void;
   renameSubject: (
     subjectId: string,
@@ -495,6 +496,42 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     []
   );
 
+  const sortSessionQuestions = useCallback((sessionKey: string) => {
+    setState((prev) => {
+      const session = prev.activeSessions[sessionKey];
+      if (!session) return prev;
+
+      const subjectQuestions = getQuestionsBySubject(prev, session.subjectId);
+      if (subjectQuestions.length === 0) return prev;
+
+      const orderedIds = subjectQuestions.map((q) => q.id);
+      const isAlreadySorted =
+        session.questionIds.length === orderedIds.length &&
+        session.questionIds.every((id, idx) => id === orderedIds[idx]);
+      if (isAlreadySorted) return prev;
+
+      const hasAnswers = Object.keys(session.answers).length > 0;
+      const currentQuestionId = session.questionIds[session.currentIndex];
+      const nextIndex =
+        !hasAnswers || session.currentIndex === 0
+          ? 0
+          : Math.max(0, orderedIds.indexOf(currentQuestionId));
+
+      return {
+        ...prev,
+        activeSessions: {
+          ...prev.activeSessions,
+          [sessionKey]: {
+            ...session,
+            questionIds: orderedIds,
+            currentIndex: nextIndex,
+            lastUpdatedAt: new Date().toISOString(),
+          },
+        },
+      };
+    });
+  }, []);
+
   const discardActiveSession = useCallback((sessionKey: string) => {
     setState((prev) => {
       const nextSessions = { ...prev.activeSessions };
@@ -707,6 +744,7 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       updateSessionElapsed,
       finishSession,
       restartSession,
+      sortSessionQuestions,
       discardActiveSession,
       renameSubject,
       addSubject,
@@ -736,6 +774,7 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       updateSessionElapsed,
       finishSession,
       restartSession,
+      sortSessionQuestions,
       discardActiveSession,
       renameSubject,
       addSubject,

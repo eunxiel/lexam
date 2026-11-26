@@ -9,6 +9,7 @@ import {
   Flag,
   Grid2x2,
   Info,
+  ListOrdered,
   RotateCcw,
   X,
   XCircle,
@@ -47,6 +48,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
     updateSessionElapsed,
     finishSession,
     restartSession,
+    sortSessionQuestions,
   } = useAppState();
 
   const session = getActiveSessionByKey(sessionKey);
@@ -61,14 +63,25 @@ export const QuizView: React.FC<QuizViewProps> = ({
   const elapsedRef = useRef(elapsedSeconds);
   elapsedRef.current = elapsedSeconds;
 
+  const subjectQuestions = useMemo(() => {
+    if (!session) return [];
+    return getQuestionsForSubject(session.subjectId);
+  }, [session, getQuestionsForSubject]);
+
   const questions = useMemo(() => {
     if (!session) return [];
-    const allSubjectQuestions = getQuestionsForSubject(session.subjectId);
-    const byId = new Map(allSubjectQuestions.map((q) => [q.id, q]));
+    const byId = new Map(subjectQuestions.map((q) => [q.id, q]));
     return session.questionIds
       .map((id) => byId.get(id))
       .filter((q): q is NonNullable<typeof q> => Boolean(q));
-  }, [session, getQuestionsForSubject]);
+  }, [session, subjectQuestions]);
+
+  const isQuestionOrderSorted = useMemo(() => {
+    if (!session || session.questionIds.length !== subjectQuestions.length) {
+      return false;
+    }
+    return session.questionIds.every((id, idx) => id === subjectQuestions[idx]?.id);
+  }, [session, subjectQuestions]);
 
   const currentIndex = session ? Math.min(session.currentIndex, Math.max(0, questions.length - 1)) : 0;
   const currentQuestion = questions[currentIndex];
@@ -177,6 +190,12 @@ export const QuizView: React.FC<QuizViewProps> = ({
     setShowRestartModal(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [restartSession, sessionKey, alsoClearSubjectProgress]);
+
+  const handleSortQuestions = useCallback(() => {
+    if (isQuestionOrderSorted) return;
+    sortSessionQuestions(sessionKey);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [isQuestionOrderSorted, sortSessionQuestions, sessionKey]);
 
   // Keyboard shortcuts (A-D / 1-4 to select, Left / Right to navigate)
   useEffect(() => {
@@ -299,6 +318,28 @@ export const QuizView: React.FC<QuizViewProps> = ({
               <Grid2x2 className="h-3.5 w-3.5" />
               <span className="tabular-nums">
                 {currentIndex + 1}/{questions.length}
+              </span>
+            </Button>
+
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={handleSortQuestions}
+              disabled={isQuestionOrderSorted}
+              title={
+                isQuestionOrderSorted
+                  ? 'Soal sudah dalam urutan asli'
+                  : 'Urutkan soal kembali sesuai urutan asli tanpa menghapus jawaban'
+              }
+              className={
+                isQuestionOrderSorted
+                  ? 'text-slate-400'
+                  : 'text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50/70'
+              }
+            >
+              <ListOrdered className="h-3.5 w-3.5" />
+              <span className="hidden md:inline">
+                {isQuestionOrderSorted ? 'Urut' : 'Urutkan'}
               </span>
             </Button>
 
@@ -580,8 +621,10 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 answers={session.answers}
                 flaggedIds={session.flaggedIds}
                 mode={session.mode}
+                isSorted={isQuestionOrderSorted}
                 onJumpTo={(idx) => setSessionQuestionIndex(sessionKey, idx)}
                 onFinishClick={handleFinishTrigger}
+                onSortClick={handleSortQuestions}
                 onRestartClick={() => setShowRestartModal(true)}
               />
             </Card>
@@ -616,6 +659,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
               answers={session.answers}
               flaggedIds={session.flaggedIds}
               mode={session.mode}
+              isSorted={isQuestionOrderSorted}
               onJumpTo={(idx) => {
                 setSessionQuestionIndex(sessionKey, idx);
                 setShowMobileNavigator(false);
@@ -623,6 +667,10 @@ export const QuizView: React.FC<QuizViewProps> = ({
               onFinishClick={() => {
                 setShowMobileNavigator(false);
                 handleFinishTrigger();
+              }}
+              onSortClick={() => {
+                handleSortQuestions();
+                setShowMobileNavigator(false);
               }}
               onRestartClick={() => {
                 setShowMobileNavigator(false);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag, RotateCcw } from 'lucide-react';
+import { Flag, ListOrdered, RotateCcw } from 'lucide-react';
 import type { OptionKey, PracticeMode, Question } from '../../types/exam';
 import { cn } from '../../utils/formatters';
 import { Button } from '../ui/Button';
@@ -10,8 +10,10 @@ interface QuestionNavigatorProps {
   answers: Record<string, OptionKey>;
   flaggedIds: string[];
   mode: PracticeMode;
+  isSorted: boolean;
   onJumpTo: (index: number) => void;
   onFinishClick: () => void;
+  onSortClick: () => void;
   onRestartClick: () => void;
 }
 
@@ -21,8 +23,10 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
   answers,
   flaggedIds,
   mode,
+  isSorted,
   onJumpTo,
   onFinishClick,
+  onSortClick,
   onRestartClick,
 }) => {
   const answeredCount = questions.filter((q) => Boolean(answers[q.id])).length;
@@ -171,6 +175,27 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
           onClick={onFinishClick}
         >
           {mode === 'exam' ? 'Submit Exam' : 'Finish Practice'}
+        </Button>
+
+        <Button
+          variant="ghost"
+          size="sm"
+          fullWidth
+          onClick={onSortClick}
+          disabled={isSorted}
+          title={
+            isSorted
+              ? 'Soal sudah dalam urutan asli'
+              : 'Kembalikan soal ke urutan asli tanpa menghapus jawaban'
+          }
+          className={
+            isSorted
+              ? 'text-slate-400'
+              : 'text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50/70'
+          }
+        >
+          <ListOrdered className="h-3.5 w-3.5" />
+          {isSorted ? 'Soal Sudah Urut' : 'Urutkan Soal'}
         </Button>
 
         <Button

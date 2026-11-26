@@ -22,8 +22,12 @@ export function createInitialState(): PersistedAppState {
     activeSessions: {},
     sessionHistory: [],
     preferences: { ...DEFAULT_PREFERENCES },
+    knownDefaultSubjectIds: DEFAULT_SUBJECTS.map((subject) => subject.id),
   };
 }
+
+/** Built-in subjects that existed before `knownDefaultSubjectIds` was tracked. */
+const LEGACY_DEFAULT_SUBJECT_IDS = ['subject-01', 'subject-02'];
 
 /**
  * Storage abstraction backed by LocalStorage.
@@ -57,6 +61,20 @@ export const storageService = {
             })
           : fallback.subjects;
 
+      // Append newly shipped built-in subjects the user has never received before
+      const knownDefaultIds = new Set(
+        Array.isArray(parsed.knownDefaultSubjectIds)
+          ? parsed.knownDefaultSubjectIds
+          : LEGACY_DEFAULT_SUBJECT_IDS
+      );
+      const existingIds = new Set(loadedSubjects.map((s) => s.id));
+      const mergedSubjects = [
+        ...loadedSubjects,
+        ...DEFAULT_SUBJECTS.filter((d) => !knownDefaultIds.has(d.id) && !existingIds.has(d.id)).map(
+          (d) => ({ ...d })
+        ),
+      ];
+
       // Drop stale active sessions that only referenced old placeholder question IDs
       const cleanedActiveSessions: PersistedAppState['activeSessions'] = {};
       if (parsed.activeSessions && typeof parsed.activeSessions === 'object') {
@@ -73,7 +91,7 @@ export const storageService = {
 
       return {
         version: 1,
-        subjects: loadedSubjects,
+        subjects: mergedSubjects,
         customQuestions:
           parsed.customQuestions && typeof parsed.customQuestions === 'object'
             ? parsed.customQuestions
@@ -92,6 +110,9 @@ export const storageService = {
           ...DEFAULT_PREFERENCES,
           ...(parsed.preferences ?? {}),
         },
+        knownDefaultSubjectIds: Array.from(
+          new Set([...knownDefaultIds, ...DEFAULT_SUBJECTS.map((d) => d.id)])
+        ),
       };
     } catch {
       return fallback;

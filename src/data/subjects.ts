@@ -19,4 +19,11 @@ export const DEFAULT_SUBJECTS: Subject[] = [
     description: 'Kisi-kisi soal UT STSI4105 — Basis Data (DBMS, model ER, yEd, normalisasi, SQL DDL/DML, transaksi, & replikasi).',
     createdAt: '2026-01-01T00:00:00.000Z',
   },
+  {
+    id: 'subject-03',
+    name: 'Pancasila',
+    code: 'MKWN4110',
+    description: 'Kisi-kisi soal UT MKWN4110 — Pancasila (pendidikan Pancasila, sejarah perumusan, dasar negara, ideologi, filsafat, etika, & paradigma pembangunan).',
+    createdAt: '2026-11-26T00:00:00.000Z',
+  },
 ];

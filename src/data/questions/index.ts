@@ -1,6 +1,7 @@
 import type { Question } from '../../types/exam';
 import subject01Questions from './subject-01.json';
 import subject02Questions from './subject-02.json';
+import subject03Questions from './subject-03.json';
 
 /**
  * Registry of built-in static question banks keyed by subject ID.
@@ -15,4 +16,5 @@ import subject02Questions from './subject-02.json';
 export const STATIC_QUESTION_BANKS: Record<string, Question[]> = {
   'subject-01': subject01Questions as Question[],
   'subject-02': subject02Questions as Question[],
+  'subject-03': subject03Questions as Question[],
 };

@@ -120,6 +120,12 @@ export interface PersistedAppState {
   activeSessions: Record<string, ActiveSession>;
   sessionHistory: SessionResult[];
   preferences: UserPreferences;
+  /**
+   * IDs of built-in subjects that have already been offered to this user.
+   * Lets newly shipped built-in subjects appear for existing users without
+   * re-adding built-in subjects the user intentionally deleted.
+   */
+  knownDefaultSubjectIds?: string[];
 }
 
 export interface SubjectStats {
